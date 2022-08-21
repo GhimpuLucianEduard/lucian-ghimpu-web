@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  @apply antialiased font-nunito;
+}
+
+/* Typography */
+
+.text-title {
+  @apply text-5xl text-white font-semibold;
+}
+
+.text-menu {
+  @apply text-base text-white hover:text-indigo font-semibold;
+}
+
+.text-body-big {
+  @apply text-2xl text-white;
+}
+
+@layer components {
+  .btn {
+    @apply bg-indigo shadow w-[196px] h-16 rounded-3xl text-white font-semibold text-2xl;
+  }
+
+  .btn:hover {
+    @apply bg-indigo-light;
+  }
+}
