@@ -3,7 +3,12 @@
     <p class="text-subtitle md:text-title text-center">🚧 Work in Progress 🚧</p>
     <p class="text-body md:text-body-big text-center mt-6">
       In the meanwhile, you can find me
-      <a class="text-indigo hover:text-indigo-light" href="https://www.linkedin.com/feed/">here</a>
+      <a
+        class="text-indigo hover:text-indigo-light"
+        href="https://www.linkedin.com/in/lucian-eduard-ghimpu-21b33b131/"
+      >
+        here
+      </a>
       👀
     </p>
   </div>
