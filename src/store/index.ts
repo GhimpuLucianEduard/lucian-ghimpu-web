@@ -19,4 +19,8 @@ export const useStore = defineStore({
   },
 });
 
-const facts = ['#1 I hate Java', "#2 I'm a dimir player"];
+const facts = [
+  '#1 I hate Java',
+  "#2 I'm a dimir player",
+  '#3 This is a long fact to test on small device how it will look',
+];

@@ -12,12 +12,20 @@
   @apply text-5xl text-white font-semibold;
 }
 
+.text-subtitle {
+  @apply text-3xl text-white font-semibold;
+}
+
 .text-menu {
   @apply text-base text-white hover:text-indigo font-semibold;
 }
 
 .text-body-big {
   @apply text-2xl text-white;
+}
+
+.text-body {
+  @apply text-xl text-white;
 }
 
 @layer components {
