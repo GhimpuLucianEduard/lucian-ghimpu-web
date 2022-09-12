@@ -16,6 +16,10 @@
   @apply text-3xl text-white font-semibold;
 }
 
+.text-subtitle-small {
+  @apply text-2xl text-white font-semibold;
+}
+
 .text-menu {
   @apply text-base text-white hover:text-indigo font-semibold;
 }
