@@ -1,6 +1,7 @@
 <template>
-  <div class="mb-9">
-    <ProjectSummary title="01. Matchmefy">
+  <div class="flex flex-col justify-start items-center container w-full mt-12 pb-12">
+    <p class="text-subtitle text-center">Here's some stuff I built for fun 🏗️</p>
+    <ProjectSummary :style="SummaryStyle.Left" title="01. Matchmefy" class="md:mt-12 mt-9">
       <template #icon>
         <img :src="matchmefyLogo" alt="matchmefy-logo" class="w-[52px] h-9" />
       </template>
@@ -14,15 +15,24 @@
       </template>
 
       <template #images>
-        <div class="grid grid-cols-3 grid-rows-1 gap-6">
-          <img :src="matchmefySlide2" class="matchmefy-image" alt="matchmefy-slide2" />
-          <img :src="matchmefySlide4" class="matchmefy-image" alt="matchmefy-slide4" />
-          <img :src="matchmefySlide5" class="matchmefy-image" alt="matchmefy-slide5" />
+        <div class="grid grid-cols-3 grid-rows-1 md:gap-14 gap-6">
+          <img
+            src="https://res.cloudinary.com/dkcw58wif/image/upload/v1665354296/lucianghimpu.com/img-matchmefy-slide2.png"
+            alt="matchmefy-slide2"
+          />
+          <img
+            src="https://res.cloudinary.com/dkcw58wif/image/upload/v1665354296/lucianghimpu.com/img-matchmefy-slide4.png"
+            alt="matchmefy-slide4"
+          />
+          <img
+            src="https://res.cloudinary.com/dkcw58wif/image/upload/v1665354296/lucianghimpu.com/img-matchmefy-slide5.png"
+            alt="matchmefy-slide5"
+          />
         </div>
       </template>
     </ProjectSummary>
 
-    <ProjectSummary class="mt-[72px]" title="02. Coin Apes">
+    <ProjectSummary :style="SummaryStyle.Right" class="mt-[72px]" title="02. Coin Apes">
       <template #icon>
         <img :src="coinApesLogo" alt="coin-apes-logo" class="w-[42px] h-9" />
       </template>
@@ -37,7 +47,10 @@
       </template>
 
       <template #images>
-        <img :src="coinApesHome" alt="coin-apes-home" />
+        <img
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1665354513/lucianghimpu.com/img-coin-apes-home.png"
+          alt="coin-apes-home"
+        />
       </template>
     </ProjectSummary>
   </div>
@@ -51,6 +64,11 @@ import matchmefySlide4 from '@/assets/img-matchmefy-slide4.svg';
 import matchmefySlide5 from '@/assets/img-matchmefy-slide5.svg';
 import coinApesHome from '@/assets/img-coin-apes-home.svg';
 import ProjectSummary from '../components/ProjectSummary.vue';
+import { SummaryStyle } from '@/types/SummaryStyle';
+import ImgMatchmefySlideOne from '../components/icons/ImgMatchmefySlideOne.vue';
+import ImgMatchmefySlideTwo from '../components/icons/ImgMatchmefySlideTwo.vue';
+import ImgMatchmefySlideFour from '../components/icons/ImgMatchmefySlideFour.vue';
+import ImgMatchmefySlideFive from '../components/icons/ImgMatchmefySlideFive.vue';
 </script>
 
 <style lang="postcss" scoped></style>
