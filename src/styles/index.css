@@ -32,6 +32,14 @@
   @apply text-xl text-white;
 }
 
+.text-body-small {
+  @apply text-base text-white;
+}
+
+.link {
+  @apply text-body text-white hover:text-indigo;
+}
+
 @layer components {
   .btn {
     @apply bg-indigo shadow w-[196px] h-16 rounded-3xl text-white font-semibold text-2xl;

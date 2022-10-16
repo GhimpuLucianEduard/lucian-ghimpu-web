@@ -1,7 +1,12 @@
 <template>
   <div class="flex flex-col justify-start items-center container w-full mt-12 pb-12">
     <p class="text-subtitle text-center">Here's some stuff I built for fun 🏗️</p>
-    <ProjectSummary :style="SummaryStyle.Left" title="01. Matchmefy" class="md:mt-12 mt-9">
+    <ProjectSummary
+      @clicked="router.push('matchmefy')"
+      :style="SummaryStyle.Left"
+      title="01. Matchmefy"
+      class="md:mt-12 mt-9"
+    >
       <template #icon>
         <img :src="matchmefyLogo" alt="matchmefy-logo" class="w-[52px] h-9" />
       </template>
@@ -59,16 +64,9 @@
 <script setup lang="ts">
 import matchmefyLogo from '@/assets/ico-matchmefy.svg';
 import coinApesLogo from '@/assets/ico-coin-apes.svg';
-import matchmefySlide2 from '@/assets/img-matchmefy-slide2.svg';
-import matchmefySlide4 from '@/assets/img-matchmefy-slide4.svg';
-import matchmefySlide5 from '@/assets/img-matchmefy-slide5.svg';
-import coinApesHome from '@/assets/img-coin-apes-home.svg';
 import ProjectSummary from '../components/ProjectSummary.vue';
 import { SummaryStyle } from '@/types/SummaryStyle';
-import ImgMatchmefySlideOne from '../components/icons/ImgMatchmefySlideOne.vue';
-import ImgMatchmefySlideTwo from '../components/icons/ImgMatchmefySlideTwo.vue';
-import ImgMatchmefySlideFour from '../components/icons/ImgMatchmefySlideFour.vue';
-import ImgMatchmefySlideFive from '../components/icons/ImgMatchmefySlideFive.vue';
+import router from '@/router';
 </script>
 
 <style lang="postcss" scoped></style>

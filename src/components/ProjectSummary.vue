@@ -8,7 +8,9 @@
       <p class="text-body text-center w-80 xl:w-[480px] md:mt-6 mt-9">
         <slot name="description"></slot>
       </p>
-      <button class="lg:visible lg:block mt-6 invisible hidden btn">View More</button>
+      <button class="lg:visible lg:block mt-6 invisible hidden btn" @click="$emit('clicked')">
+        View More
+      </button>
     </div>
     <div
       class="mt-9 xl:w-7/12"
@@ -19,7 +21,7 @@
     >
       <slot name="images"></slot>
     </div>
-    <button class="lg:invisible lg:hidden btn mt-9">View More</button>
+    <button class="lg:invisible lg:hidden btn mt-9" @click="$emit('clicked')">View More</button>
   </div>
 </template>
 
@@ -32,4 +34,5 @@ const props = defineProps({
   description: String,
   style: String as PropType<SummaryStyle>,
 });
+defineEmits(['clicked']);
 </script>

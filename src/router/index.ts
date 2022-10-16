@@ -3,6 +3,7 @@ import Home from '../views/Home.vue';
 import WorkInProgress from '../views/WorkInProgress.vue';
 import NotFound from '../views/NotFound.vue';
 import ProjectsOverview from '@/views/ProjectsOverview.vue';
+import Matchmefy from '@/views/MatchmefyPage.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,6 +17,11 @@ const router = createRouter({
       path: '/projects',
       name: 'projects',
       component: ProjectsOverview,
+    },
+    {
+      path: '/matchmefy',
+      name: 'matchmefy',
+      component: Matchmefy,
     },
     {
       path: '/posts',
