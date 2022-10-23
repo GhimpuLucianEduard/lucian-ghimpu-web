@@ -3,9 +3,9 @@
     <div class="flex flex-col items-center xl:w-5/12">
       <div class="flex flex-row justify-center">
         <slot name="icon"></slot>
-        <p class="text-subtitle-small text-center ml-4">{{ title }}</p>
+        <p class="xl:text-3xl text-2xl font-semibold text-center ml-4">{{ title }}</p>
       </div>
-      <p class="text-body text-center w-80 xl:w-[480px] md:mt-6 mt-9">
+      <p class="xl:text-2xl text-xl text-center w-80 xl:w-[480px] md:mt-6 mt-9">
         <slot name="description"></slot>
       </p>
       <button class="lg:visible lg:block mt-6 invisible hidden btn" @click="$emit('clicked')">

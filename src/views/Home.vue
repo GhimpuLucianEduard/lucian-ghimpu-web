@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-start items-center container w-full h-screen pt-12 md:pt-16">
-    <p class="text-subtitle md:text-title text-center">👋 Hello, I'm Lucian</p>
-    <p class="text-body md:text-title text-center pt-8">
+    <p class="text-title text-center">👋 Hello, I'm Lucian</p>
+    <p class="text-body text-center pt-8">
       I'm a
       <span class="text-red-500">Ro</span>
       <span class="text-yellow-400">man</span>
@@ -12,7 +12,7 @@
     </p>
 
     <div class="flex flex-col justify-center items-center flex-grow text-center">
-      <p class="text-body md:text-body-big">
+      <p class="text-body">
         <span class="text-indigo">Random Fact:</span>
         {{ store.currentFact }}
       </p>

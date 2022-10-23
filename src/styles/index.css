@@ -3,41 +3,33 @@
 @tailwind utilities;
 
 * {
-  @apply antialiased font-nunito;
+  @apply antialiased font-nunito text-white;
 }
 
 /* Typography */
 
 .text-title {
-  @apply text-5xl text-white font-semibold;
+  @apply text-3xl lg:text-5xl font-semibold;
 }
 
 .text-subtitle {
-  @apply text-3xl text-white font-semibold;
+  @apply text-2xl lg:text-3xl font-semibold
 }
 
-.text-subtitle-small {
-  @apply text-2xl text-white font-semibold;
+.text-body {
+  @apply text-xl lg:text-2xl text-white;
+}
+
+.text-body-small {
+  @apply text-base lg:text-xl text-white;
 }
 
 .text-menu {
   @apply text-base text-white hover:text-indigo font-semibold;
 }
 
-.text-body-big {
-  @apply text-2xl text-white;
-}
-
-.text-body {
-  @apply text-xl text-white;
-}
-
-.text-body-small {
-  @apply text-base text-white;
-}
-
-.link {
-  @apply text-body text-white hover:text-indigo;
+.text-link {
+  @apply text-xl lg:text-2xl text-white hover:text-indigo;
 }
 
 @layer components {

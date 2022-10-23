@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-start items-center container w-full mt-12 pb-12">
-    <p class="text-subtitle text-center">Here's some stuff I built for fun 🏗️</p>
+    <p class="text-title text-center">Here's some stuff I built for fun 🏗️</p>
     <ProjectSummary
       @clicked="router.push('matchmefy')"
       :style="SummaryStyle.Left"
