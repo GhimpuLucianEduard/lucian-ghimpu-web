@@ -37,7 +37,12 @@
       </template>
     </ProjectSummary>
 
-    <ProjectSummary :style="SummaryStyle.Right" class="mt-[72px]" title="02. Coin Apes">
+    <ProjectSummary
+      @clicked="router.push('coinapes')"
+      :style="SummaryStyle.Right"
+      class="mt-[72px]"
+      title="02. Coin Apes"
+    >
       <template #icon>
         <img :src="coinApesLogo" alt="coin-apes-logo" class="w-[42px] h-9" />
       </template>

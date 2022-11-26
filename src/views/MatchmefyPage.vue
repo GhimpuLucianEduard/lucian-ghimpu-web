@@ -77,7 +77,7 @@
           -> Analytics and Crashalytics 💥
         </li>
       </ul>
-      <h2 class="text-subtitle text-center mt-8 md:mt-[72px]">APIs</h2>
+      <h2 class="project-h2">APIs</h2>
       <ul class="list-disc pl-4 mt-8">
         <li>
           <b class="text-indigo">Spotify Web API</b>
@@ -89,7 +89,7 @@
           the "logic" to get the match summary for 2 users
         </li>
       </ul>
-      <h2 class="text-subtitle text-center mt-8 md:mt-[72px]">FAQ</h2>
+      <h2 class="project-h2">FAQ</h2>
       <p class="question mt-8">Q: Will Matchmefy be available on iOS and Web?</p>
       <p class="body-small mt-8">
         A: It is planned, but not a priority. If you are an iOS dev or web dev and looking to extend
@@ -101,7 +101,7 @@
       </p>
     </div>
     <div
-      class="flex space-y-6 md:space-y-0 flex-col lg:w-[856px] md:w-full md:flex-row mt-8 md:mt-[72px] items-center md: md:justify-between"
+      class="flex space-y-6 md:space-y-0 flex-col lg:w-[856px] md:w-full md:flex-row mt-8 md:mt-[72px] items-center md:justify-between"
     >
       <div class="flex flex-row">
         <img :src="gitHubLogo" alt="github-logo" class="w-8 h-8" />

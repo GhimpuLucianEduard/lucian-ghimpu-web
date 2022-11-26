@@ -32,6 +32,10 @@
   @apply text-xl lg:text-2xl text-white hover:text-indigo;
 }
 
+.project-h2 {
+  @apply text-subtitle text-center mt-8 md:mt-[72px]
+}
+
 @layer components {
   .btn {
     @apply bg-indigo shadow w-[196px] h-16 rounded-3xl text-white font-semibold text-2xl;
