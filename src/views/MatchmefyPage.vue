@@ -1,7 +1,11 @@
 <template>
   <div class="flex flex-col justify-start items-center container w-full mt-12 pb-12">
     <div class="flex flex-row items-center">
-      <img :src="matchmefyLogo" alt="matchmefy-logo" class="w-[64px] h-12" />
+      <img
+        src="https://res.cloudinary.com/dkcw58wif/image/upload/v1670153317/lucianghimpu.com/ico-matchmefy.png"
+        alt="matchmefy-logo"
+        class="w-[64px]"
+      />
       <h1 class="text-title ml-2">Matchmefy</h1>
     </div>
     <p class="text-body text-center md:w-[500px] mt-8">
@@ -126,7 +130,6 @@
 
 <script setup lang="ts">
 import gitHubLogo from '@/assets/ico-github.svg';
-import matchmefyLogo from '@/assets/ico-matchmefy.svg';
 import ProjectLabel from '../components/ProjectLabel.vue';
 </script>
 

@@ -8,7 +8,11 @@
       class="md:mt-12 mt-9"
     >
       <template #icon>
-        <img :src="matchmefyLogo" alt="matchmefy-logo" class="w-[52px] h-9" />
+        <img
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1670153317/lucianghimpu.com/ico-matchmefy.png"
+          alt="matchmefy-logo"
+          class="w-[52px]"
+        />
       </template>
 
       <template #description>
@@ -44,7 +48,11 @@
       title="02. Coin Apes"
     >
       <template #icon>
-        <img :src="coinApesLogo" alt="coin-apes-logo" class="w-[42px] h-9" />
+        <img
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1670153317/lucianghimpu.com/ico-coin-apes.png"
+          alt="coin-apes-logo"
+          class="w-[42px]"
+        />
       </template>
 
       <template #description>
@@ -67,8 +75,6 @@
 </template>
 
 <script setup lang="ts">
-import matchmefyLogo from '@/assets/ico-matchmefy.svg';
-import coinApesLogo from '@/assets/ico-coin-apes.svg';
 import ProjectSummary from '../components/ProjectSummary.vue';
 import { SummaryStyle } from '@/types/SummaryStyle';
 import router from '@/router';

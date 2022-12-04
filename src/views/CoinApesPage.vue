@@ -1,7 +1,11 @@
 <template>
   <div class="flex flex-col justify-start items-center container w-full mt-12 pb-12">
     <div class="flex flex-row items-center">
-      <img :src="coinApesLogo" alt="coin-apes-logo" class="w-[64px] h-12" />
+      <img
+        src="https://res.cloudinary.com/dkcw58wif/image/upload/v1670153317/lucianghimpu.com/ico-coin-apes.png"
+        alt="coin-apes-logo"
+        class="w-[64px]"
+      />
       <h1 class="text-title ml-2">Coin Apes</h1>
     </div>
     <p class="text-body text-center md:w-[500px] mt-8">
@@ -73,7 +77,6 @@
 </template>
 
 <script setup lang="ts">
-import coinApesLogo from '@/assets/ico-coin-apes.svg';
 import gitHubLogo from '@/assets/ico-github.svg';
 import ProjectLabel from '../components/ProjectLabel.vue';
 </script>
