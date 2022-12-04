@@ -21,6 +21,7 @@ module.exports = {
       'dark-grey': '#121212',
       indigo: '#5F5BE6',
       'indigo-light': '#7571EA',
+      'surface-grey': '#181818',
       red: colors.red,
       yellow: colors.yellow,
       blue: colors.blue,

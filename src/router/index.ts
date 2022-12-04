@@ -5,9 +5,13 @@ import NotFound from '../views/NotFound.vue';
 import ProjectsOverview from '@/views/ProjectsOverview.vue';
 import Matchmefy from '@/views/MatchmefyPage.vue';
 import CoinApes from '@/views/CoinApesPage.vue';
+import Posts from '@/views/PostsPage.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  scrollBehavior() {
+    return { top: 0 };
+  },
   routes: [
     {
       path: '/',
@@ -32,7 +36,7 @@ const router = createRouter({
     {
       path: '/posts',
       name: 'posts',
-      component: WorkInProgress,
+      component: Posts,
     },
     {
       path: '/resume',
