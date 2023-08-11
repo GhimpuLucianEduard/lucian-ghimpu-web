@@ -39,11 +39,11 @@
       <p>This time around, to tackle the aforementioned challenges, I've resolved to:</p>
 
       <ol>
-        <li>Ride the wave and not dwell too much on the minutiae ⚡️</li>
+        <li>Ride the wave and not dwell too much on the details ⚡️</li>
         <li>
           Kick off a
-          <code>dev diary</code>
-          , ensuring I stay on track and transparent about my journey –
+          <code>dev diary,</code>
+          ensuring I stay on track and transparent about my journey –
           <em>hence, this very post</em>
         </li>
       </ol>
