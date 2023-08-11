@@ -40,6 +40,24 @@ const facts = [
 
 const posts = [
   {
+    title: '[Placeholder]',
+    subtitle: 'August 12, 2023 • Reading Time: 6 minutes',
+    tags: ['Node.js', 'Typescript', 'Personal'],
+    intro: 'I lost my motivation',
+    link: '/posts/motivation',
+    content: `
+    <p>
+      In the last couple of months, we've been busy playing around with
+      <b>Jetpack Compose</b>. We had some challenges here and there in the migration, and it's still a work in progress 🚧
+    </p>
+    </br>
+    <p>
+      But this post is more about the fun part of Compose:
+      <b>MODIFIERS!!!!</b>
+      <i>(and more)</i>
+    </p>`,
+  },
+  {
     title: 'Modifiers and Extensions – The Compose Migration Continues',
     subtitle: 'November 17, 2022 • Reading Time: 6 minutes',
     tags: ['Android', 'Compose', 'Kotlin'],
