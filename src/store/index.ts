@@ -40,21 +40,20 @@ const facts = [
 
 const posts = [
   {
-    title: '[Placeholder]',
-    subtitle: 'August 12, 2023 • Reading Time: 6 minutes',
-    tags: ['Node.js', 'Typescript', 'Personal'],
-    intro: 'I lost my motivation',
-    link: '/posts/motivation',
+    title: 'Treachery App - Dev Diary #1',
+    subtitle: 'August 12, 2023 • Reading Time: 5 minutes',
+    tags: ['Node.js', 'WebSockets', 'Dev Diary'],
+    intro: '👀 Where Did My Motivation Go?',
+    link: '/posts/dev-diary-1',
     content: `
     <p>
-      In the last couple of months, we've been busy playing around with
-      <b>Jetpack Compose</b>. We had some challenges here and there in the migration, and it's still a work in progress 🚧
+        Over the past months, I've hit several roadblocks trying to kick off, maintain, or wrap up
+        personal projects. Whether it's diving into a new tech topic, experimenting with a mini-app,
+        or crafting a fully fleshed-out product, the motivation just wasn't there.
     </p>
     </br>
     <p>
-      But this post is more about the fun part of Compose:
-      <b>MODIFIERS!!!!</b>
-      <i>(and more)</i>
+      <em>So, the big question - why?</em>
     </p>`,
   },
   {

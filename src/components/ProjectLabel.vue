@@ -3,7 +3,7 @@
     class="flex flex-col align-middle justify-center border-2 border-indigo rounded-[20px]"
     :class="{
       'lg:w-[196px] w-[155px] h-[44px]': props.style === LabelStyle.Normal,
-      'w-[86px] h-[36px]': props.style === LabelStyle.Small,
+      'h-[36px] pl-3 pr-3': props.style === LabelStyle.Small,
     }"
   >
     <p
