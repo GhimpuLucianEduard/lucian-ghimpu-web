@@ -26,7 +26,7 @@
         :text="'lucianghimpu'"
         :icon="twitterIcon"
         :is-link="true"
-        :link="'https://www.instagram.com/lucian.gmp/'"
+        :link="'https://twitter.com/lucianghimpu'"
       />
       <ContactItem
         :text="'lucian.gmp'"
