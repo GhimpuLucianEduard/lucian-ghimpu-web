@@ -45,6 +45,7 @@ const posts = [
     tags: ['Node.js', 'WebSockets', 'Dev Diary'],
     intro: '👀 Where Did My Motivation Go?',
     link: '/posts/dev-diary-1',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/motivation.png',
     content: `
     <p>
         Over the past months, I've hit several roadblocks trying to kick off, maintain, or wrap up
@@ -62,6 +63,7 @@ const posts = [
     tags: ['Android', 'Compose', 'Kotlin'],
     intro: 'A little bit of context',
     link: 'https://tech.everli.com/2022/11/17/modifiers-and-extensions-the-compose-migration-continues/',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1692309102/post-preview-4.webp',
     content: `
     <p>
       In the last couple of months, we've been busy playing around with
@@ -80,6 +82,7 @@ const posts = [
     tags: ['Android', 'Compose', 'Kotlin'],
     intro: 'Prologue',
     link: 'https://tech.everli.com/2022/07/27/design-system-android-a-problematic-situation/',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1692309102/post-preview-3.webp',
     content: `    
     <p>
       Picture this: you are an
@@ -101,6 +104,7 @@ const posts = [
     tags: ['Kotlin', 'Kotest', 'Gradle'],
     intro: 'Spice up the default Kotlin Multiplatform project 🌶',
     link: 'https://medium.com/dev-genius/kotlin-multiplatform-library-with-kotest-and-gradle-version-catalog-23861a6f1bb1',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1692309102/post-preview-2.webp',
     content: `
     <p>
       Recently I've started a side project to build a library in Kotlin. Then I wondered, why not
@@ -127,6 +131,7 @@ const posts = [
     tags: ['Vue.js', 'Vue3', 'GTM'],
     intro: 'A clean and fast approach using the Composition API 🍪',
     link: 'https://medium.com/@lucianghimpu/every-time-i-am-ready-to-release-a-website-app-i-face-the-tedious-task-of-setting-up-google-f36052d3b21e',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1692309102/post-preview-1.webp',
     content: `    
     <p>
       Every time I am ready to release a website/app, I face the tedious task of setting up Google

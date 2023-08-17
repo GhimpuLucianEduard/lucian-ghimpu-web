@@ -7,7 +7,8 @@ import Matchmefy from '@/views/MatchmefyPage.vue';
 import CoinApes from '@/views/CoinApesPage.vue';
 import Posts from '@/views/PostsPage.vue';
 import Contact from '@/views/ContactPage.vue';
-import DevDiaryOne from '@/views/DevDiaryOne.vue';
+import DevDiaryOne from '@/views//dev-diary/DevDiaryOne.vue';
+import DevDiaryTwo from '@/views//dev-diary/DevDiaryTwo.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -54,6 +55,11 @@ const router = createRouter({
       path: '/posts/dev-diary-1',
       name: 'dev-diary-one',
       component: DevDiaryOne,
+    },
+    {
+      path: '/posts/dev-diary-2',
+      name: 'dev-diary-two',
+      component: DevDiaryTwo,
     },
     { path: '/:pathMatch(.*)*', component: NotFound },
   ],

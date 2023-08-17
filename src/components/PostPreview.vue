@@ -1,17 +1,25 @@
 <template>
-  <div class="flex flex-col container xl:w-[526px] p-6 bg-surface-grey rounded-3xl shadow-md">
-    <p class="text-subtitle">{{ title }}</p>
-    <p class="text-base mt-4">{{ subtitle }}</p>
-    <div class="flex flex-row mt-6 gap-x-4">
-      <ProjectLabel v-for="label of labels" :key="label" :style="LabelStyle.Small" :label="label" />
-    </div>
-    <p class="text-2xl mt-12">{{ intro }}</p>
-    <div class="text-base mt-6">
-      <slot name="content"></slot>
-    </div>
-    <div class="flex flex-col mt-12 grow">
-      <a :href="link" class="text-2xl underline hover:text-indigo mt-auto">Read more</a>
-    </div>
+  <div class="flex flex-col container p-6 bg-surface-grey rounded-3xl shadow-md">
+    <article class="prose dark:prose-invert">
+      <h2>{{ title }}</h2>
+      <em>{{ subtitle }}</em>
+      <div class="flex flex-wrap md:flex-row mt-6 gap-x-4 md:gap-y-0 gap-y-4">
+        <ProjectLabel
+          v-for="label of labels"
+          :key="label"
+          :style="LabelStyle.Small"
+          :label="label"
+        />
+      </div>
+      <img class="rounded-xl" v-if="image" :src="image" alt="post-preview" />
+      <h3>{{ intro }}</h3>
+      <div>
+        <slot name="content"></slot>
+      </div>
+      <div class="flex flex-col mt-6">
+        <a :href="link" class="hover:text-indigo">Read more</a>
+      </div>
+    </article>
   </div>
 </template>
 
@@ -25,5 +33,6 @@ defineProps({
   intro: String,
   link: String,
   labels: Array<string>,
+  image: String,
 });
 </script>
