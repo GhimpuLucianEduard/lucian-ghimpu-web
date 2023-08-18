@@ -3,7 +3,7 @@
     <article class="prose dark:prose-invert lg:w-[856px]">
       <h1>Do I need a DB? - Dev Diary #2</h1>
 
-      <em>August 18, 2023 - Reading Time: 5 minutes</em>
+      <em>August 18, 2023 - Reading Time: 6 minutes</em>
 
       <figure>
         <img
