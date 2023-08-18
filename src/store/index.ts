@@ -40,12 +40,30 @@ const facts = [
 
 const posts = [
   {
+    title: 'Do I need a DB? - Dev Diary #2',
+    subtitle: 'August 18, 2023 • Reading Time: 5 minutes',
+    tags: ['Node.js', 'WebSockets', 'Dev Diary'],
+    intro: 'This is a test intro',
+    link: '/posts/dev-diary-2',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-2/dev-diary-2.png',
+    content: `
+    <p>
+        WIP
+    </p>
+    </br>
+    <p>
+      <em>So, the big question - why?</em>
+    </p>`,
+  },
+  {
     title: 'Treachery App - Dev Diary #1',
     subtitle: 'August 12, 2023 • Reading Time: 5 minutes',
     tags: ['Node.js', 'WebSockets', 'Dev Diary'],
     intro: '👀 Where Did My Motivation Go?',
     link: '/posts/dev-diary-1',
-    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/motivation.png',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-1/dev-diary-1.png',
     content: `
     <p>
         Over the past months, I've hit several roadblocks trying to kick off, maintain, or wrap up

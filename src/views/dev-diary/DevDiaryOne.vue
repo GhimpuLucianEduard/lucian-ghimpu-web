@@ -7,8 +7,8 @@
 
       <figure>
         <img
-          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/motivation.png"
-          alt="Image illustrating motivation"
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-1/dev-diary-1.png"
+          alt="Post Image"
         />
         <figcaption>Generated with DELLE-2</figcaption>
       </figure>
@@ -91,7 +91,7 @@
 
       <figure>
         <img
-          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/app-diagram.png"
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/lucianghimpu.com/dev-diary-1/app-diagram.png"
           alt="Diagram showcasing the app's architecture"
         />
         <figcaption>A bird's-eye view of the app's structure.</figcaption>
@@ -111,7 +111,7 @@
 
       <figure>
         <img
-          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/backend-board.png"
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/lucianghimpu.com/dev-diary-1/backend-board.png"
           alt="Visual representation of the backend board"
         />
         <figcaption>The initial blueprint of the backend board</figcaption>
@@ -159,7 +159,7 @@
 
       <figure>
         <img
-          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/diary1-postman.png"
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/lucianghimpu.com/dev-diary-1/diary1-postman.png"
           alt="Screenshot from Postman"
         />
         <figcaption>Game created with a mere POST request</figcaption>
@@ -167,7 +167,7 @@
 
       <figure>
         <img
-          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/diary1-ws.png"
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/lucianghimpu.com/dev-diary-1/diary1-ws.png"
           alt="WebSocket operations"
         />
         <figcaption>Players connect and join a game using a code</figcaption>
@@ -175,7 +175,7 @@
 
       <figure>
         <img
-          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/diary1-node.png"
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691787931/lucianghimpu.com/dev-diary-1/diary1-node.png"
           alt="Node logs"
         />
         <figcaption>The logs of intrepid players connecting and joining the adventure</figcaption>
