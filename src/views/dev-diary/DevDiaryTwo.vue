@@ -95,7 +95,7 @@
         file logs request data in a brilliantly structured format. This means, in the grand future,
         we can easily query through the entries. 🧐
       </p>
-      <div class="not-prose">
+      <div class="not-prose code-block">
         <highlightjs language="json" :code="log_code" />
       </div>
 
@@ -161,7 +161,7 @@
 
       <p>Oh, and speaking of structure, here's a glimpse at some models shaping our responses:</p>
 
-      <div class="not-prose">
+      <div class="not-prose code-block">
         <highlightjs language="typescript" :code="model_code" />
       </div>
 
@@ -181,7 +181,7 @@
 
       <p>And here's a snapshot of the code:</p>
 
-      <div class="not-prose">
+      <div class="not-prose code-block">
         <highlightjs language="typescript" :code="game_server_code" />
       </div>
 
@@ -195,7 +195,7 @@
         .
       </p>
 
-      <div class="not-prose">
+      <div class="not-prose code-block">
         <highlightjs language="typescript" :code="game_code" />
       </div>
 
@@ -248,7 +248,6 @@
 </template>
 
 <script setup lang="ts">
-// create a code variable
 const log_code = `{
    "content_length": "33",
    "level": "http",

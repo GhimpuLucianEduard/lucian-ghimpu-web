@@ -47,5 +47,9 @@
 }
 
 code>span {
-  @apply font-code !important;
+  @apply font-code !important
+}
+
+.code-block {
+  @apply container w-screen md:w-auto -mx-4 md:mx-auto md:p-0
 }
