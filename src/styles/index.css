@@ -45,3 +45,7 @@
     @apply bg-indigo-light;
   }
 }
+
+code>span {
+  @apply font-code !important;
+}

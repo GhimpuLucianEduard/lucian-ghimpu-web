@@ -28,6 +28,7 @@ module.exports = {
     },
     fontFamily: {
       nunito: ['Nunito', 'sans-serif'],
+      code: ['Source Code Pro', 'monospace'],
     },
     container: {
       padding: {

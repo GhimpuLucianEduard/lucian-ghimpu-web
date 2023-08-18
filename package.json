@@ -12,6 +12,8 @@
     "netlify": "netlify dev"
   },
   "dependencies": {
+    "@highlightjs/vue-plugin": "^2.1.0",
+    "highlight.js": "^11.8.0",
     "lambda-rate-limiter": "^3.0.1",
     "pinia": "^2.0.17",
     "vue": "^3.2.37",
