@@ -43,18 +43,24 @@ const posts = [
     title: 'Do I need a DB? - Dev Diary #2',
     subtitle: 'August 18, 2023 • Reading Time: 5 minutes',
     tags: ['Node.js', 'WebSockets', 'Dev Diary'],
-    intro: 'This is a test intro',
+    intro: '📆 Past Week Progress',
     link: '/posts/dev-diary-2',
     image:
       'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-2/dev-diary-2.png',
     content: `
     <p>
-        WIP
-    </p>
-    </br>
-    <p>
-      <em>So, the big question - why?</em>
-    </p>`,
+        Last week, I dove deep into the backend part, and it's shaping up quite nicely. We've got
+        the basics down: logging, error management, basic API responses, and a sprinkle of game
+        lobby logic.
+      </p>
+
+      <p>
+        BUT most important:
+        <em><b>I decided to not use a Database</b></em>
+      </p>
+
+      <em>Wait, what?</em>
+      `,
   },
   {
     title: 'Treachery App - Dev Diary #1',
