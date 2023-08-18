@@ -41,7 +41,7 @@ const facts = [
 const posts = [
   {
     title: 'Do I need a DB? - Dev Diary #2',
-    subtitle: 'August 18, 2023 • Reading Time: 5 minutes',
+    subtitle: 'August 18, 2023 • Reading Time: 6 minutes',
     tags: ['Node.js', 'WebSockets', 'Dev Diary'],
     intro: '📆 Past Week Progress',
     link: '/posts/dev-diary-2',
