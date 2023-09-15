@@ -193,7 +193,7 @@
         sometimes bore me, and I often find myself craving visible results.
       </p>
 
-      <p>For now, though, I'm very happy to have finished my 3rd entry in this dev diary!</p>
+      <p>For now, I'm very happy to have finished my 3rd entry in this dev diary!</p>
     </article>
   </div>
 </template>
