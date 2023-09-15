@@ -40,6 +40,27 @@ const facts = [
 
 const posts = [
   {
+    title: 'Took a break - Figma - Dev Diary #3',
+    subtitle: 'September 16, 2023 • Reading Time: 6 minutes',
+    tags: ['Figma', 'UI/UX', 'Dev Diary'],
+    intro: '🍝 Pasta, Wine and Figma',
+    link: '/posts/dev-diary-3',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-3/dev-diary-3.png',
+    content: `
+      <p>
+        It feels like forever since my last dev diary entry. That's because I hit pause on
+        everything to take a refreshing break. I ventured out to the enchanting 🇮🇹
+        <b>Puglia</b>
+        for a vacation, and what a journey that was!
+      </p>
+
+      <p>Fast forward a month, and here I am, penning down a fresh entry for my dev diary.</p>
+
+      <em>Yet, with not so much progress to report...</em>
+      `,
+  },
+  {
     title: 'Do I need a DB? - Dev Diary #2',
     subtitle: 'August 18, 2023 • Reading Time: 6 minutes',
     tags: ['Node.js', 'WebSockets', 'Dev Diary'],
