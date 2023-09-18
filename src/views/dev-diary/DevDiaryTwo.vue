@@ -10,7 +10,7 @@
           src="https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-2/dev-diary-2.png"
           alt="Post Image"
         />
-        <figcaption>Generated with DELLE-2</figcaption>
+        <figcaption>Generated with DALLE-2</figcaption>
       </figure>
 
       <h2>📆 Past Week Progress</h2>
