@@ -40,6 +40,46 @@ const facts = [
 
 const posts = [
   {
+    title: 'Implementing a code text field in Android - Dev Diary #4',
+    subtitle: 'November 2, 2023 • Reading Time: 6 minutes',
+    tags: ['Android', 'Compose', 'Dev Diary'],
+    intro: '📲 Next up: the Android Project',
+    link: '/posts/dev-diary-4',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1698934984/lucianghimpu.com/dev-diary-4/intro.png',
+    content: `
+      <p>
+        Just like I mentioned in my previous dev diary entry, I'm taking a top-down approach. So,
+        I've started things off by bootstrapping the Android app 🫡
+        <br />
+        Ideally, this is supposed to be the
+        <em>"easy"</em>
+        part, especially since I've been working with Android professionally for some time.
+      </p>
+
+      <p>
+        And so far, it's been pretty straightforward. I've set up the project, tossed in the
+        dependencies, sorted out the basic navigation, helpers, and so on...
+      </p>
+
+      <em>Here's a quick demo 👀</em>
+      `,
+  },
+  {
+    title: 'Jetpack Compose: Tips & Tricks from Our Android App Migration',
+    subtitle: 'October 9, 2023 • Reading Time: 8 minutes',
+    tags: ['Android', 'Compose', 'Kotlin'],
+    intro: '🎯 A Big Milestone',
+    link: 'https://tech.everli.com/2023/10/09/jetpack-compose-tips-tricks-from-our-android-app-migration/',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1698934295/calltoaction.png',
+    content: `
+      <p>
+        Over the recent weeks, we have celebrated an important transition in our Android Customer App. 
+        We completed the migration of all our <b>Widgets</b> to Jetpack Compose.
+      </p>  
+      `,
+  },
+  {
     title: 'Took a break - Figma - Dev Diary #3',
     subtitle: 'September 16, 2023 • Reading Time: 6 minutes',
     tags: ['Figma', 'UI/UX', 'Dev Diary'],

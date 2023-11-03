@@ -10,6 +10,7 @@ import Contact from '@/views/ContactPage.vue';
 import DevDiaryOne from '@/views//dev-diary/DevDiaryOne.vue';
 import DevDiaryTwo from '@/views//dev-diary/DevDiaryTwo.vue';
 import DevDiaryThree from '@/views//dev-diary/DevDiaryThree.vue';
+import DevDiaryFour from '@/views//dev-diary/DevDiaryFour.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -66,6 +67,11 @@ const router = createRouter({
       path: '/posts/dev-diary-3',
       name: 'dev-diary-three',
       component: DevDiaryThree,
+    },
+    {
+      path: '/posts/dev-diary-4',
+      name: 'dev-diary-four',
+      component: DevDiaryFour,
     },
     { path: '/:pathMatch(.*)*', component: NotFound },
   ],
