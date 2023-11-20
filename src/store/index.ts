@@ -5,6 +5,7 @@ export type RootState = {
   facts: Array<string>;
   currentFact: string;
   posts: Array<Post>;
+  tags: Array<string>;
 };
 
 export const useStore = defineStore({
@@ -14,6 +15,7 @@ export const useStore = defineStore({
       facts: facts,
       currentFact: facts[Math.floor(Math.random() * facts.length)],
       posts: posts,
+      tags: Array.from(new Set(posts.flatMap((post) => post.tags))),
     } as RootState),
   actions: {
     randomizeFact() {
