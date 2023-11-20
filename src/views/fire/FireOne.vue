@@ -129,14 +129,14 @@
         another time.
       </p>
 
-      <em>
-        What's the connection between the fall of communism and FIRE? And what about my father?
-      </em>
-
       <p>
         That period has since ended, and now Romania is more regulated and somewhat stable,
         especially since joining NATO and the EU 🇪🇺
       </p>
+
+      <em>
+        What's the connection between the fall of communism and FIRE? And what about my father?
+      </em>
 
       <p>
         My father capitalized on that era and built a decent net worth from cheap real estate he
@@ -158,6 +158,12 @@
         />
         <figcaption>Prices in Bucharest 2000-2008</figcaption>
       </figure>
+
+      <p class="italic text-indigo">
+        <a href="https://en.wikipedia.org/wiki/Romanian_property_bubble">
+          More details about Romania's property bubble
+        </a>
+      </p>
 
       <p>
         His goal was -
