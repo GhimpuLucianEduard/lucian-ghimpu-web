@@ -6,6 +6,7 @@ export type RootState = {
   currentFact: string;
   posts: Array<Post>;
   tags: Array<string>;
+  highlightedTags: Array<string>;
 };
 
 export const useStore = defineStore({
@@ -16,6 +17,7 @@ export const useStore = defineStore({
       currentFact: facts[Math.floor(Math.random() * facts.length)],
       posts: posts,
       tags: Array.from(new Set(posts.flatMap((post) => post.tags))),
+      highlightedTags: ['Android', 'Compose', 'Dev Diary', 'FIRE'],
     } as RootState),
   actions: {
     randomizeFact() {
@@ -41,6 +43,26 @@ const facts = [
 ];
 
 const posts = [
+  {
+    title: "From Romania's Revolution to FIRE: A Legacy of Change",
+    subtitle: 'November 20, 2023 - Reading Time: 8 minutes',
+    tags: ['FIRE'],
+    intro: 'Have you ever heard about FIRE and the 4% rule? 👀',
+    link: '/posts/fire-1',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-1/fire-one.png',
+    content: `
+      <p>
+        Well, if you're in the tech bubble, you probably have. But for those unfamiliar, FIRE
+        essentially stands for
+        <em>“Financial Independence, Retire Early”</em>
+        . As for the 4% rule, let me quote from
+        <a class="text-indigo" href="https://www.investopedia.com/terms/f/four-percent-rule.asp">
+          Investopedia:
+        </a>
+      </p>
+      `,
+  },
   {
     title: 'Implementing a code text field in Android - Dev Diary #4',
     subtitle: 'November 2, 2023 • Reading Time: 6 minutes',
