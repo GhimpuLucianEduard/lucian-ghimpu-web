@@ -54,8 +54,7 @@ const posts = [
     content: `
       <p>
         In the
-        <a class="text-indigo" href="posts/fire-1">last post</a>
-        , I told you the story of Romania in the early 2000s and how it shaped my FIRE view today.
+        <a class="text-indigo" href="posts/fire-1">last post,</a> I told you the story of Romania in the early 2000s and how it shaped my FIRE view today.
       </p>
 
       <p>
