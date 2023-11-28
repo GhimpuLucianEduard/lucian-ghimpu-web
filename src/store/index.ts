@@ -50,7 +50,7 @@ const posts = [
     intro: 'Have you started investing yet? 🫡',
     link: '/posts/fire-2',
     image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-1/fire-one.png',
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-2/fire-two.png',
     content: `
       <p>
         In the
