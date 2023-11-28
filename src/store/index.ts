@@ -44,6 +44,33 @@ const facts = [
 
 const posts = [
   {
+    title: 'Tai Lopez, Silviu Faiar and why you should invest',
+    subtitle: 'November 27, 2023 - Reading Time: 8 minutes',
+    tags: ['FIRE'],
+    intro: 'Have you started investing yet? 🫡',
+    link: '/posts/fire-2',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-1/fire-one.png',
+    content: `
+      <p>
+        In the
+        <a class="text-indigo" href="posts/fire-1">last post</a>
+        , I told you the story of Romania in the early 2000s and how it shaped my FIRE view today.
+      </p>
+
+      <p>
+        Now, with this post, I'm heading in a different direction, exploring the current events and
+        situations in Romania.
+      </p>
+
+      <p>
+        In particular, a
+        <a class="text-indigo" href="https://www.youtube.com/watch?v=m7J2T3wJJSI">mockumentary</a>
+        that was released recently.
+      </p>
+      `,
+  },
+  {
     title: "From Romania's Revolution to FIRE: A Legacy of Change",
     subtitle: 'November 20, 2023 - Reading Time: 8 minutes',
     tags: ['FIRE'],

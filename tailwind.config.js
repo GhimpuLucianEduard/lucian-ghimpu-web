@@ -25,6 +25,7 @@ module.exports = {
       red: colors.red,
       yellow: colors.yellow,
       blue: colors.blue,
+      green: colors.green,
     },
     fontFamily: {
       nunito: ['Nunito', 'sans-serif'],
