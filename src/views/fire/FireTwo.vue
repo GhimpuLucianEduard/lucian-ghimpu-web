@@ -87,8 +87,8 @@
 
       <p>
         I know the positive ideas seem kind of obvious, but I still remember back in
-        <b>2015</b>
-        , I think, when I first saw the infamous
+        <b>~2015,</b>
+        I think, when I first saw the infamous
         <b>Tai Lopez garage ad.</b>
         Naturally, I was intrigued 💀
       </p>
