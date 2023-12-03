@@ -15,7 +15,8 @@
 
       <em>
         About three years ago, I learned about the Japanese concept of
-        <b>IKIGAI.</b>
+        <b>IKIGAI</b>
+        🇯🇵
       </em>
 
       <p>
