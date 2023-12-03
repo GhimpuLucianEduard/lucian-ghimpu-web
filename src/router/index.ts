@@ -13,6 +13,7 @@ import DevDiaryThree from '@/views//dev-diary/DevDiaryThree.vue';
 import DevDiaryFour from '@/views//dev-diary/DevDiaryFour.vue';
 import FireOne from '@/views//fire/FireOne.vue';
 import FireTwo from '@/views//fire/FireTwo.vue';
+import FireThree from '@/views//fire/FireThree.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -84,6 +85,11 @@ const router = createRouter({
       path: '/posts/fire-2',
       name: 'fire-two',
       component: FireTwo,
+    },
+    {
+      path: '/posts/fire-3',
+      name: 'fire-three',
+      component: FireThree,
     },
     { path: '/:pathMatch(.*)*', component: NotFound },
   ],

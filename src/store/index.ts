@@ -44,6 +44,25 @@ const facts = [
 
 const posts = [
   {
+    title: 'Ikigai, FIRE and Studio Ghibli',
+    subtitle: 'December 03, 2023 - Reading Time: 7 minutes',
+    tags: ['FIRE', 'Books'],
+    intro: 'About three years ago, I learned about the Japanese concept of IKIGAI 🇯🇵',
+    link: '/posts/fire-3',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-3/post.png',
+    content: `
+      <p>
+        It was quite random actually. My colleague and manager at the time,
+        <a class="text-indigo" href="https://www.linkedin.com/in/mihaituhari/">@MihaiTuhari,</a>
+        was sharing his screen, and in his bookmarks, I noticed one named
+        <em>Ikigai.</em>
+        I believe that to this day, he still has that bookmark 👀
+      </p>
+      <p>I was quite intrigued, so I looked it up. It's a very simple concept:</p>
+      `,
+  },
+  {
     title: 'Tai Lopez, Silviu Faiar and why you should invest',
     subtitle: 'November 27, 2023 - Reading Time: 8 minutes',
     tags: ['FIRE'],
