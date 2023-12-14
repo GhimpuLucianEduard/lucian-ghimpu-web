@@ -44,6 +44,29 @@ const facts = [
 
 const posts = [
   {
+    title: 'Fall seven times, rise eight - the 10 rules of ikigai',
+    subtitle: 'December 14, 2023 - Reading Time: 7 minutes',
+    tags: ['FIRE', 'Books'],
+    intro: 'I continued to reflect on my Ikigai 🤔',
+    link: '/posts/fire-4',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1702576287/lucianghimpu.com/fire-4/fire-4.png',
+    content: `
+      <p>
+        As I mentioned in the
+        <a class="text-indigo" href="/posts/fire-3">previous post,</a>
+        to set some FIRE goals, it was essential for me to define my Ikigai, or at least have a
+        rough idea of the direction I'm heading in.
+      </p>
+
+      <p>
+        To this end, I began reading a book about Ikigai. Having finished it, I discovered that the
+        second part of the book focuses on
+        <em>resilience, stoicism, negative visualization, and similar concepts.</em>
+      </p>
+      `,
+  },
+  {
     title: 'Ikigai, FIRE and Studio Ghibli',
     subtitle: 'December 03, 2023 - Reading Time: 7 minutes',
     tags: ['FIRE', 'Books'],
