@@ -44,6 +44,23 @@ const facts = [
 
 const posts = [
   {
+    title: '2024 Goals: A Balanced Mix of Finance, Fitness, and Creativity',
+    subtitle: 'December 21, 2023 - Reading Time: 6 minutes',
+    tags: ['Personal', 'Lifestyle'],
+    intro: "Time for some concrete goals, don't you think? 🫡",
+    link: '/posts/personal-goals-2024',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1703185637/lucianghimpu.com/blog-generic/2024-goals-image.png',
+    content: `
+      <p>
+        I'm a numbers guy, so this year I decided to have my 2024 goals backed by actual numbers.
+        Essentially, I've tried to find concrete metrics to measure my progress throughout the year.
+      </p>
+
+      <p>Here's a sneak peek of the end result:</p>
+      `,
+  },
+  {
     title: 'Fall seven times, rise eight - the 10 rules of ikigai',
     subtitle: 'December 14, 2023 - Reading Time: 7 minutes',
     tags: ['FIRE', 'Books'],

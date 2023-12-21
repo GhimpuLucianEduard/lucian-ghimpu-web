@@ -15,6 +15,7 @@ import FireOne from '@/views//fire/FireOne.vue';
 import FireTwo from '@/views//fire/FireTwo.vue';
 import FireThree from '@/views//fire/FireThree.vue';
 import FireFour from '@/views//fire/FireFour.vue';
+import PersonalGoals2024 from '@/views/blog/PersonalGoals2024.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -96,6 +97,11 @@ const router = createRouter({
       path: '/posts/fire-4',
       name: 'fire-four',
       component: FireFour,
+    },
+    {
+      path: '/posts/personal-goals-2024',
+      name: 'personal-goals-2024',
+      component: PersonalGoals2024,
     },
     { path: '/:pathMatch(.*)*', component: NotFound },
   ],
