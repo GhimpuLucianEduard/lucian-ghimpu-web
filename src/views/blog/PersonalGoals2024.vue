@@ -32,8 +32,8 @@
 
       <p>
         To make things easier, I also plan to
-        <span class="text-indigo">track everything</span>
-        . It's nothing new, honestly; up to this point, I've regularly tracked financial aspects and
+        <span class="text-indigo">track everything.</span>
+        It's nothing new, honestly; up to this point, I've regularly tracked financial aspects and
         other matters.
       </p>
 
@@ -203,7 +203,7 @@
           </ul>
         </div>
         <div>
-          <h3>🧸 Hobbies/General</h3>
+          <h3>🧸 Hobbies</h3>
           <ul>
             <li>Build a high-level EDH deck</li>
             <li>Reduce Netflix/streaming usage</li>
