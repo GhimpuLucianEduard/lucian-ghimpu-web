@@ -44,6 +44,18 @@ const facts = [
 
 const posts = [
   {
+    title: 'TBD',
+    subtitle: 'December 30, 2023 - Reading Time: 6 minutes',
+    tags: ['FIRE'],
+    intro: 'TBD',
+    link: '/posts/fire-5',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1703185637/lucianghimpu.com/blog-generic/2024-goals-image.png',
+    content: `
+      TBD
+      `,
+  },
+  {
     title: '2024 Goals: A Balanced Mix of Finance, Fitness, and Creativity',
     subtitle: 'December 21, 2023 - Reading Time: 6 minutes',
     tags: ['Personal', 'Lifestyle'],

@@ -15,6 +15,7 @@ import FireOne from '@/views//fire/FireOne.vue';
 import FireTwo from '@/views//fire/FireTwo.vue';
 import FireThree from '@/views//fire/FireThree.vue';
 import FireFour from '@/views//fire/FireFour.vue';
+import FireFive from '@/views//fire/FireFive.vue';
 import PersonalGoals2024 from '@/views/blog/PersonalGoals2024.vue';
 
 const router = createRouter({
@@ -97,6 +98,11 @@ const router = createRouter({
       path: '/posts/fire-4',
       name: 'fire-four',
       component: FireFour,
+    },
+    {
+      path: '/posts/fire-5',
+      name: 'fire-five',
+      component: FireFive,
     },
     {
       path: '/posts/personal-goals-2024',
