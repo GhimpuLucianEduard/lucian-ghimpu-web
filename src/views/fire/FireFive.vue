@@ -210,7 +210,7 @@
       <p>
         They offer an average
         <b>7.5%</b>
-        return rate with a 3-year maturity. So, there's not much more to say here 🤷🏻‍♂️.
+        return rate with a 3-year maturity. So, there's not much more to say here 🤷🏻‍♂️
       </p>
 
       <p>
@@ -287,7 +287,7 @@
         If you do, you probably shouldn't have invested in the first place.
       </p>
 
-      <h2>Part 6: Conclusions 📝</h2>
+      <h2>Part 5: Conclusions 📝</h2>
 
       <p>To highlight some positives and negatives:</p>
       <ul>
