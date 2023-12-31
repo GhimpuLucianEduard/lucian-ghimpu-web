@@ -110,9 +110,8 @@
         but I plan to set specific allocation percentages for each asset class in the coming years.
         So far, I have not done any
         <a class="text-indigo" href="https://www.investopedia.com/terms/r/rebalancing.asp">
-          rebalancing,
+          rebalancing.
         </a>
-        but I intend to start soon.
       </p>
 
       <em>Do I have no investing plan at all?</em>
