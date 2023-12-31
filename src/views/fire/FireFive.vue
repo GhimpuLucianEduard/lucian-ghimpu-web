@@ -3,11 +3,11 @@
     <article class="prose dark:prose-invert lg:w-[856px]">
       <h1>I reached $100k - end of the year report</h1>
 
-      <em>December 30, 2023 - Reading Time: 7 minutes</em>
+      <em>December 31, 2023 - Reading Time: 7 minutes</em>
 
       <figure>
         <img
-          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1702576287/lucianghimpu.com/fire-4/fire-4.png"
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1704007354/lucianghimpu.com/fire-5/post-image.png"
           alt="Post Image"
         />
         <figcaption>Generated with DALL·E</figcaption>
@@ -27,9 +27,12 @@
           finances.
         </em>
       </p>
+
       <p>
-        Also, I started from scratch. In fact, back in 2019 when I began investing, I had a bank
-        loan for, guess what? A TV and a PlayStation 4 🤦🏻
+        Also, I started from scratch,
+        <b>zero external help,</b>
+        apart the great education from my parents which I'm very thankful for. In fact, back in 2019
+        when I began investing, I had a bank loan for, guess what? A TV and a PlayStation 4 🤦🏻
       </p>
 
       <p>
@@ -285,14 +288,14 @@
         If you do, you probably shouldn't have invested in the first place.
       </p>
 
-      <h2>Part 5: Conclusions 📝</h2>
+      <h2>Part 6: Conclusions 📝</h2>
 
       <p>To highlight some positives and negatives:</p>
       <ul>
         <li>
           I'm not entirely satisfied with my savings rate. It's around
-          <span class="text-red-500">~38%</span>
-          , which isn't bad, but there's room for improvement
+          <span class="text-red-500">~38%,</span>
+          which isn't bad, but there's room for improvement
         </li>
         <li>
           <span class="text-red-500">Expenses</span>
@@ -332,9 +335,11 @@
       </em>
 
       <p>
-        It might sound selfish and corny 🫠, but my point is: if banks and other entities profit from
-        you, yhy don't you profit from them?
+        It might sound selfish and corny, but my point is: if banks and other entities profit from
+        you, why don't you profit from them?
       </p>
+
+      <p><b>ℹ️ TIP #6: Fuck the banks</b></p>
     </article>
   </div>
 </template>

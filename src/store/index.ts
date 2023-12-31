@@ -44,15 +44,22 @@ const facts = [
 
 const posts = [
   {
-    title: 'TBD',
-    subtitle: 'December 30, 2023 - Reading Time: 6 minutes',
+    title: 'I Reached $100k - End of the Year Report',
+    subtitle: 'December 31, 2023 - Reading Time: 7 minutes',
     tags: ['FIRE'],
-    intro: 'TBD',
+    intro: 'This year, I reached an important milestone: $100k net worth 🎉',
     link: '/posts/fire-5',
     image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1703185637/lucianghimpu.com/blog-generic/2024-goals-image.png',
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704007354/lucianghimpu.com/fire-5/post-image.png',
     content: `
-      TBD
+      <p>
+        <b>⚠️ DISCLAIMER:</b>
+        <em>
+          My aim is not to boast. I believe that if I'm going to write about FIRE, investments, and
+          money on the internet, I owe it to my readers to be somewhat transparent about my own
+          finances.
+        </em>
+      </p>
       `,
   },
   {
