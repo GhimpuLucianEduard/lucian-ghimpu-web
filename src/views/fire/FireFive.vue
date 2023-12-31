@@ -50,9 +50,9 @@
 
       <p>
         In your early
-        <b>20s</b>
-        , the best investment is in yourself, which should yield high returns in the form of a
-        higher salary later.
+        <b>20s,</b>
+        the best investment is in yourself, which should yield high returns in the form of a higher
+        salary later.
       </p>
 
       <p><b>ℹ️ TIP #1: Invest in yourself and find a "high return" career</b></p>
