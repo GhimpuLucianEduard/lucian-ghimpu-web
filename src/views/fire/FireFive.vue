@@ -100,7 +100,7 @@
 
       <p>
         <b>A:</b>
-        Not exactly! I don't adhere to strategies like
+        Nope! I don't adhere to strategies like
         <a
           class="text-indigo"
           href="https://investor.vanguard.com/investor-resources-education/education/model-portfolio-allocation"
