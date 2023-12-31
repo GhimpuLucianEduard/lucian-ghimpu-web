@@ -131,7 +131,7 @@
       <p>
         <b>A:</b>
         Real Estate. I'm planning to invest in real estate soon, hence the need for a significant
-        amount of liquidity.
+        amount of liquidity. Also part of it is my emergency fund.
       </p>
 
       <h2>Part 2: Stocks - Allocation and Performance 🫡</h2>
