@@ -74,7 +74,7 @@
       </ul>
       <p>
         For a grand total of:
-        <b class="text-indigo">$102,021</b>
+        <b class="text-indigo">~$102,000</b>
       </p>
 
       <figure class="w-2/3">
