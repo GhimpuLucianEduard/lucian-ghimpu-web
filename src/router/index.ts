@@ -11,6 +11,7 @@ import DevDiaryOne from '@/views//dev-diary/DevDiaryOne.vue';
 import DevDiaryTwo from '@/views//dev-diary/DevDiaryTwo.vue';
 import DevDiaryThree from '@/views//dev-diary/DevDiaryThree.vue';
 import DevDiaryFour from '@/views//dev-diary/DevDiaryFour.vue';
+import DevDiaryFive from '@/views//dev-diary/DevDiaryFive.vue';
 import FireOne from '@/views//fire/FireOne.vue';
 import FireTwo from '@/views//fire/FireTwo.vue';
 import FireThree from '@/views//fire/FireThree.vue';
@@ -78,6 +79,11 @@ const router = createRouter({
       path: '/posts/dev-diary-4',
       name: 'dev-diary-four',
       component: DevDiaryFour,
+    },
+    {
+      path: '/posts/dev-diary-5',
+      name: 'dev-diary-five',
+      component: DevDiaryFive,
     },
     {
       path: '/posts/fire-1',

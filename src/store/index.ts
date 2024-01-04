@@ -44,6 +44,23 @@ const facts = [
 
 const posts = [
   {
+    title: 'WebSocket in Android using callbackFlow - Dev Diary #5',
+    subtitle: 'January 04, 2024 • Reading Time: 12 minutes',
+    tags: ['Android', 'WebSockets', 'Dev Diary'],
+    intro: "It's been a while since my latest update 🫠",
+    link: '/posts/dev-diary-5',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704397303/lucianghimpu.com/dev-diary-5/post-image.png',
+    content: `
+      <p>
+        Truth be told, I had time to work on the app, but I just didn't feel like it. So, no smart
+        excuses here. However, I recently got back to it and had some fun with
+        <b>WebSockets</b>
+        in Android.
+      </p>
+    `,
+  },
+  {
     title: 'I Reached $100k - End of the Year Report',
     subtitle: 'December 31, 2023 - Reading Time: 7 minutes',
     tags: ['FIRE'],
