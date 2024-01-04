@@ -197,6 +197,14 @@
           The WebSocket is created as long as the flow is in use and closed when it's no longer
           needed
         </li>
+        <li>
+          A special note for the
+          <span class="text-red-500">onFailure</span>
+          callback. This callback is usually called when your sever goes down or when the connection
+          is lost. In this case, we close the WebSocket and the flow. ⚠️ It's very important to
+          handle this part, especially if you are working on the backend at the same time as the
+          client. Otherwise, you might end up with a lot of "ghost" connections.
+        </li>
       </ul>
 
       <h3>
