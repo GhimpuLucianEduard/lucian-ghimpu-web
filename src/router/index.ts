@@ -18,6 +18,9 @@ import FireThree from '@/views//fire/FireThree.vue';
 import FireFour from '@/views//fire/FireFour.vue';
 import FireFive from '@/views//fire/FireFive.vue';
 import PersonalGoals2024 from '@/views/blog/PersonalGoals2024.vue';
+import CookiePolicyPageVue from '@/views/CookiePolicyPage.vue';
+import PrivacyPolicyPageVue from '@/views/PrivacyPolicyPage.vue';
+import TermsOfUsePageVue from '@/views/TermsOfUsePage.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,6 +32,21 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Home,
+    },
+    {
+      path: '/cookie-policy',
+      name: 'cookie-policy',
+      component: CookiePolicyPageVue,
+    },
+    {
+      path: '/privacy-policy',
+      name: 'privacy-policy',
+      component: PrivacyPolicyPageVue,
+    },
+    {
+      path: '/terms-of-use',
+      name: 'terms-of-use',
+      component: TermsOfUsePageVue,
     },
     {
       path: '/projects',

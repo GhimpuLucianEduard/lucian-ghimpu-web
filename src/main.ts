@@ -6,6 +6,8 @@ import hljs from 'highlight.js/lib/core';
 import json from 'highlight.js/lib/languages/json';
 import ts from 'highlight.js/lib/languages/typescript';
 import hljsVuePlugin from '@highlightjs/vue-plugin';
+import VueGtag from 'vue-gtag';
+import { VueCookieNext } from 'vue-cookie-next';
 
 hljs.registerLanguage('json', json);
 hljs.registerLanguage('typescript', ts);
@@ -16,7 +18,15 @@ import router from './router';
 const app = createApp(App);
 
 app.use(createPinia());
+app.use(VueCookieNext);
+app.use(VueGtag, {
+  config: { id: 'G-RS1E12DD5C' },
+  router,
+  enabled: false,
+});
 app.use(router);
 app.use(hljsVuePlugin);
+
+app.provide('gtag', app.config.globalProperties.$gtag);
 
 app.mount('#app');
