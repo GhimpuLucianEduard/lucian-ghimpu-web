@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-start items-center container w-full mt-12 pb-12">
     <article class="prose dark:prose-invert lg:w-[856px]">
-      <h1>Cookie Policy for www.lucianghimpu.com</h1>
+      <h2>Cookie Policy for www.lucianghimpu.com</h2>
 
       <div class="flex flex-row">
         <p>We use cookies for Google Analytics, you can disable it here:</p>

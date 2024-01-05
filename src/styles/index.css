@@ -28,6 +28,10 @@
   @apply text-base text-white hover:text-indigo font-semibold;
 }
 
+.text-footer {
+  @apply text-sm text-white ;
+}
+
 .text-link {
   @apply text-xl lg:text-2xl text-white hover:text-indigo;
 }

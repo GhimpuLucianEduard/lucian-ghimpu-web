@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-start items-center container w-full mt-12 pb-12">
     <article class="prose dark:prose-invert lg:w-[856px]">
-      <h1>Privacy Policy for www.lucianghimpu.com</h1>
+      <h2>Privacy Policy for www.lucianghimpu.com</h2>
 
       <p>
         At www.lucianghimpu.com, accessible from https://www.lucianghimpu.com, one of our main
