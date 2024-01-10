@@ -7,7 +7,7 @@
 
       <figure>
         <img
-          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1704007354/lucianghimpu.com/fire-6/post-image.png"
+          src="https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-6/post-image.png"
           alt="Post Image"
         />
         <figcaption>Generated with DALL·E</figcaption>

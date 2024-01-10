@@ -50,7 +50,7 @@ const posts = [
     intro: 'I picked up a new book over the weekend, and surprisingly, I got hooked on it!',
     link: '/posts/fire-6',
     image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704007354/lucianghimpu.com/fire-6/post-image.png',
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-6/post-image.png',
     content: `
       <p>
         The book is
