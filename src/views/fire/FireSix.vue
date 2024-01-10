@@ -28,7 +28,7 @@
       </p>
       <p>
         So far, I've read about
-        <span class="text-indigo">~25%</span>
+        <span class="text-indigo">~33%</span>
         of the book and I've thoroughly enjoyed the writing style and the stories.
       </p>
       <em>So, what's the book about?</em>
@@ -85,15 +85,15 @@
         <li>
           A person who grew up in poverty views
           <b class="text-indigo">risk and reward</b>
-          differently than the child of a wealthy banker ever could.
+          differently than the child of a wealthy banker ever could
         </li>
         <li>
           Those who experienced high inflation firsthand have a completely different worldview
-          compared to someone accustomed to stable prices.
+          compared to someone accustomed to stable prices
         </li>
         <li>
           Someone who has lived through multiple stock market crashes will behave differently than
-          someone who has just experienced their first.
+          someone who has just experienced their first
         </li>
       </ul>
       <p>
@@ -107,7 +107,7 @@
         per year on them.
       </p>
       <p>This is the same demographic where having a $400 emergency fund is a rarity.</p>
-      <p>It might sound irrational, right?</p>
+      <p>It might sound crazy, right?</p>
       <em>
         But remember, we are not
         <b>the lowest-income households.</b>
@@ -139,7 +139,7 @@
         <li>
           In 1968 there were roughly
           <b>303 million</b>
-          high-school-age people in the world, according to the UN. -
+          high-school-age people in the world, according to the UN -
           <b class="text-lime-500">8.57%</b>
         </li>
         <li>
@@ -166,22 +166,22 @@
           of them attended Lakeside School -
           <b class="text-red-500">0.0000085%</b>
         </li>
-
-        <blockquote>“If there had been no Lakeside, there would have been no Microsoft”</blockquote>
-        <em>Gates said to told the school's graduating class in 2005.</em>
-
-        <p>
-          It's commonly known that luck plays a significant role in financial success. However, the
-          problem often lies in our tendency to focus only on
-          <b class="text-indigo">extreme cases</b>
-          as examples, which typically garner a lot of media attention.
-        </p>
-
-        <blockquote>
-          "There are more relevant lessons to take away from this kind of broad observation than
-          there are in studying the extreme characters that tend to dominate the news"
-        </blockquote>
       </ul>
+
+      <blockquote>“If there had been no Lakeside, there would have been no Microsoft”</blockquote>
+      <em>Gates said to told the school's graduating class in 2005.</em>
+
+      <p>
+        It's commonly known that luck plays a significant role in financial success. However, the
+        problem often lies in our tendency to focus only on
+        <b class="text-indigo">extreme cases</b>
+        as examples, which typically garner a lot of media attention.
+      </p>
+
+      <blockquote>
+        "There are more relevant lessons to take away from broad observation than there are in
+        studying the extreme characters that tend to dominate the news"
+      </blockquote>
 
       <h2>3. Never Enough</h2>
 
@@ -201,7 +201,7 @@
       <p>
         The author goes beyond this, addressing the overarching
         <b>greed</b>
-        that can ensnare individuals.
+        that can take over individuals.
       </p>
       <blockquote>
         "A rookie baseball player who earns $500,000 a year. He is, by any definition, rich. But say
@@ -210,7 +210,7 @@
         so high that virtually no one will ever hit it. Which means it's a battle that can never be
         won, or that the only way to win"
       </blockquote>
-      <figure class="w-2/3">
+      <figure class="md:w-2/3">
         <img
           src="https://res.cloudinary.com/dkcw58wif/image/upload/v1704007354/lucianghimpu.com/fire-6/greed.png"
           alt="Post Image"
@@ -238,7 +238,7 @@
           or $9.3 million adjusted for inflation
         </li>
         <li>
-          At the time th book was written, Warren Buffett's net worth is
+          At the time the book was written, Warren Buffett's net worth is
           <b>$84.5 billion.</b>
           Of that,
           <b>$84.2 billion</b>
@@ -271,11 +271,11 @@
         And that's something we all have.
       </p>
 
+      <h2>5. Getting Wealthy vs. Staying Wealthy</h2>
+
       <blockquote>
         "If I had to summarize money success in a single word it would be “survival.”
       </blockquote>
-
-      <h2>5. Getting Wealthy vs. Staying Wealthy</h2>
 
       <p>
         <b>Getting money and keeping money are two different skills.</b>
@@ -294,7 +294,7 @@
 
       <p>
         Essentially, the same bold investor who takes significant risks must also practice
-        frugality. Ironically, among some of my close friends, I observe the opposite behavior.
+        frugality. Ironically, most of the time I observe the opposite behavior among people.
       </p>
       <p>
         What I mean is that during
