@@ -44,6 +44,29 @@ const facts = [
 
 const posts = [
   {
+    title: "It's Not Just About Spreadsheets - Part 1",
+    subtitle: 'January 10, 2024 - Reading Time: 8 minutes',
+    tags: ['FIRE', 'Books'],
+    intro: 'I picked up a new book over the weekend, and surprisingly, I got hooked on it!',
+    link: '/posts/fire-6',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704007354/lucianghimpu.com/fire-6/post-image.png',
+    content: `
+      <p>
+        The book is
+        <a class="text-indigo italic" href="https://amzn.to/3TSKf0g">
+          "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness"
+        </a>
+        &nbsp; by
+        <em>Morgan Housel.</em>
+      </p>
+      <p>
+        Honestly, I usually have a hard time getting into books about investments or economics. But
+        to my surprise, this one really captivated me 👀
+      </p>
+      `,
+  },
+  {
     title: 'WebSocket in Android using callbackFlow - Dev Diary #5',
     subtitle: 'January 04, 2024 • Reading Time: 12 minutes',
     tags: ['Android', 'WebSockets', 'Dev Diary'],

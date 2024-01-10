@@ -17,6 +17,7 @@ import FireTwo from '@/views//fire/FireTwo.vue';
 import FireThree from '@/views//fire/FireThree.vue';
 import FireFour from '@/views//fire/FireFour.vue';
 import FireFive from '@/views//fire/FireFive.vue';
+import FireSix from '@/views//fire/FireSix.vue';
 import PersonalGoals2024 from '@/views/blog/PersonalGoals2024.vue';
 import CookiePolicyPageVue from '@/views/CookiePolicyPage.vue';
 import PrivacyPolicyPageVue from '@/views/PrivacyPolicyPage.vue';
@@ -127,6 +128,11 @@ const router = createRouter({
       path: '/posts/fire-5',
       name: 'fire-five',
       component: FireFive,
+    },
+    {
+      path: '/posts/fire-6',
+      name: 'fire-six',
+      component: FireSix,
     },
     {
       path: '/posts/personal-goals-2024',
