@@ -44,6 +44,32 @@ const facts = [
 
 const posts = [
   {
+    title: "You're not a spreadsheet. You're a person - Part 2",
+    subtitle: 'January 19, 2024 - Reading Time: 7 minutes',
+    tags: ['FIRE', 'Books'],
+    intro:
+      "If I had to be a spreadsheet, I would would be a Google Sheet; because I'm always in the cloud ☁️",
+    link: '/posts/fire-7',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-7/post-image.png',
+    content: `
+      <p>I'm sorry for the joke 🫠</p>
+      <p>
+        In my previous post, I reviewed some of the concepts presented in
+        <a class="text-indigo italic" href="https://amzn.to/3TSKf0g">
+          "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness"
+        </a>
+        &nbsp; by the insightful author,
+        <em>Morgan Housel.</em>
+      </p>
+
+      <p>
+        Today, we're picking up where we left off, exploring the next segment of the book. We will
+        take us have a look at themes such as freedom, saving, surprises, and much more 👀
+      </p>
+      `,
+  },
+  {
     title: "It's Not Just About Spreadsheets - Part 1",
     subtitle: 'January 10, 2024 - Reading Time: 8 minutes',
     tags: ['FIRE', 'Books'],
