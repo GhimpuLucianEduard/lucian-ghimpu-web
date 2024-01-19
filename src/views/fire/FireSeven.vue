@@ -27,7 +27,7 @@
         <a class="text-indigo italic" href="https://amzn.to/3TSKf0g">
           "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness"
         </a>
-        &nbsp; by the insightful author,
+        &nbsp; by the author,
         <em>Morgan Housel.</em>
       </p>
 
@@ -204,7 +204,7 @@
       </blockquote>
 
       <p>
-        This promises to be an
+        This is a
         <b>intriguing</b>
         chapter, so buckle up. We'll begin with a short story. Back in the '70s, it was estimated
         that we would run out of oil within a decade.
