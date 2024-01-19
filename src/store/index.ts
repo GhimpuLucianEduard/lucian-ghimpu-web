@@ -48,7 +48,7 @@ const posts = [
     subtitle: 'January 19, 2024 - Reading Time: 7 minutes',
     tags: ['FIRE', 'Books'],
     intro:
-      "If I had to be a spreadsheet, I would would be a Google Sheet; because I'm always in the cloud ☁️",
+      "If I had to be a spreadsheet, I would be a Google Sheet; because I'm always in the cloud ☁️",
     link: '/posts/fire-7',
     image:
       'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-7/post-image.png',

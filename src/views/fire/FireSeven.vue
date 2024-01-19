@@ -14,8 +14,7 @@
       </figure>
 
       <p>
-        If I had to be a spreadsheet, I would would be a Google Sheet; because I'm always in the
-        cloud ☁️
+        If I had to be a spreadsheet, I would be a Google Sheet; because I'm always in the cloud ☁️
       </p>
 
       <p>I'm sorry for the joke 🫠</p>
