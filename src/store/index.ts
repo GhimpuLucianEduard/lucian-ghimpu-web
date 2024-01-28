@@ -44,6 +44,36 @@ const facts = [
 
 const posts = [
   {
+    title: 'Aliens, Airplanes and Spreadsheets - Part 3',
+    subtitle: 'January 28, 2024 - Reading Time: 11 minutes',
+    tags: ['FIRE', 'Books'],
+    intro: '"Progress happens too slowly to notice, but setbacks happen too quickly to ignore."',
+    link: '/posts/fire-8',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-8/post-image.png',
+    content: `
+      <p>
+        So here we are in the final third of the amazing book:
+        <a class="text-indigo italic" href="https://amzn.to/3TSKf0g">
+          "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness"
+        </a>
+        by the author,
+        <em>Morgan Housel.</em>
+        I've already reviewed the first two-thirds of the book, which you can find here:
+      </p>
+      <ol>
+        <li>
+          <a class="text-indigo" href="/posts/fire-6">It's Not Just About Spreadsheets - Part 1</a>
+        </li>
+        <li>
+          <a class="text-indigo" href="/posts/fire-7">
+            You're Not a Spreadsheet. You're a Person - Part 2
+          </a>
+        </li>
+      </ol>
+      `,
+  },
+  {
     title: "You're not a spreadsheet. You're a person - Part 2",
     subtitle: 'January 19, 2024 - Reading Time: 7 minutes',
     tags: ['FIRE', 'Books'],
