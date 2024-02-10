@@ -44,6 +44,26 @@ const facts = [
 
 const posts = [
   {
+    title: "I'm About To Start My Own Startup (Maybe?)",
+    subtitle: 'February 10, 2024 - Reading Time: 5 minutes',
+    tags: ['Startup'],
+    intro: 'Ok, so hear me out',
+    link: '/posts/law-app-diary-1',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1707599148/lucianghimpu.com/law-app-1/post-image.webp',
+    content: `
+      <p>
+        I came up with what I think is a somewhat useful idea. Now, I don't want to spoil the full
+        product. Not that I'm afraid someone will steal it, but I kinda like not disclosing it,
+        makes me feel like I'm working on something big
+        <i>(it's not).</i>
+        I'll give some details though:
+      </p>
+
+      <em>It's related to law and law firms 👨‍⚖️</em>
+      `,
+  },
+  {
     title: 'Aliens, Airplanes and Spreadsheets - Part 3',
     subtitle: 'January 28, 2024 - Reading Time: 11 minutes',
     tags: ['FIRE', 'Books'],

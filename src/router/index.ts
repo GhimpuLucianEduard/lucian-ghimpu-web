@@ -24,6 +24,7 @@ import PersonalGoals2024 from '@/views/blog/PersonalGoals2024.vue';
 import CookiePolicyPageVue from '@/views/CookiePolicyPage.vue';
 import PrivacyPolicyPageVue from '@/views/PrivacyPolicyPage.vue';
 import TermsOfUsePageVue from '@/views/TermsOfUsePage.vue';
+import LawAppDiaryOneVue from '@/views/law-app-diary/LawAppDiaryOne.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -150,6 +151,11 @@ const router = createRouter({
       path: '/posts/personal-goals-2024',
       name: 'personal-goals-2024',
       component: PersonalGoals2024,
+    },
+    {
+      path: '/posts/law-app-diary-1',
+      name: 'law-app-diary-1',
+      component: LawAppDiaryOneVue,
     },
     { path: '/:pathMatch(.*)*', component: NotFound },
   ],
