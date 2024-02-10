@@ -10,7 +10,7 @@
           src="https://res.cloudinary.com/dkcw58wif/image/upload/v1707599148/lucianghimpu.com/law-app-1/post-image.webp"
           alt="Post Image"
         />
-        <figcaption>Generated with DALLE-2</figcaption>
+        <figcaption>Generated with DALL·E</figcaption>
       </figure>
 
       <h2>Ok, so hear me out</h2>
