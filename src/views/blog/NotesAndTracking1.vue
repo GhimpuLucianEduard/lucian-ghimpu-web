@@ -13,10 +13,10 @@
         <figcaption>Generated with DALL·E</figcaption>
       </figure>
 
-      <p>Am I the only one that struggles to find the right all-in-one note taking app?</p>
+      <p>Am I the only one who struggles to find the right all-in-one note-taking app?</p>
 
       <p>
-        Ok, so hear me out, for years I've been trying out different solutions for note taking and
+        Ok, so hear me out, for years I've been trying out different solutions for note-taking and
         data tracking.
       </p>
 
@@ -182,7 +182,7 @@
       <h3>Obsidian</h3>
 
       <p>
-        Lately, I was fascinated by
+        Lately, I have been fascinated by
         <a class="text-indigo font-bold underline" href="https://obsidian.md/">Obsidian,</a>
         a
         <em>markdown</em>
