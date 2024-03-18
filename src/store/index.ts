@@ -17,7 +17,7 @@ export const useStore = defineStore({
       currentFact: facts[Math.floor(Math.random() * facts.length)],
       posts: posts,
       tags: Array.from(new Set(posts.flatMap((post) => post.tags))),
-      highlightedTags: ['Android', 'Compose', 'Dev Diary', 'FIRE'],
+      highlightedTags: ['Android', 'Compose', 'Dev Diary', 'FIRE', 'Lifestyle'],
     } as RootState),
   actions: {
     randomizeFact() {
@@ -40,9 +40,34 @@ const facts = [
   "#11 I'm pretty well known for making above average memes 🥹",
   '#12 I lived in italy for 10 years, my entire childhood 🇮🇹',
   "#13 I'm pretty sure I can eat an infinite amount of Sushi 🍣",
+  '#14 As a kid, I wanted to be a researcher 🔬',
 ];
 
 const posts = [
+  {
+    title: 'Note Taking & Data Tracking: The Endless Quest for the Right Tool',
+    subtitle: 'March 18, 2023 - Reading Time: 10 minutes',
+    tags: ['Personal', 'Productivity', 'Lifestyle'],
+    intro: 'Am I the only one that struggles to find the right all-in-one note taking app?',
+    link: '/posts/notes-and-tracking-1',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1710776238/lucianghimpu.com/notes-and-tracking-1/post-image.webp',
+    content: `
+      <p>
+        Ok, so hear me out, for years I've been trying out different solutions for note taking and
+        data tracking.
+      </p>
+
+      <em>
+        Evernote, OneNote, Notion, Apple Notes, Obsidian, Google Sheets, Apple Numbers, etc...
+      </em>
+
+      <p>
+        And for me, it was always the case that I needed more than one solution to handle all my use
+        cases. So, what are my needs?
+      </p>
+      `,
+  },
   {
     title: "I'm About To Start My Own Startup (Maybe?)",
     subtitle: 'February 10, 2024 - Reading Time: 5 minutes',

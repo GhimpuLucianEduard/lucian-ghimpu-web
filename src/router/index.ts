@@ -21,6 +21,7 @@ import FireSix from '@/views//fire/FireSix.vue';
 import FireSeven from '@/views//fire/FireSeven.vue';
 import FireEight from '@/views/fire/FireEight.vue';
 import PersonalGoals2024 from '@/views/blog/PersonalGoals2024.vue';
+import NotesAndTracking1 from '@/views/blog/NotesAndTracking1.vue';
 import CookiePolicyPageVue from '@/views/CookiePolicyPage.vue';
 import PrivacyPolicyPageVue from '@/views/PrivacyPolicyPage.vue';
 import TermsOfUsePageVue from '@/views/TermsOfUsePage.vue';
@@ -151,6 +152,11 @@ const router = createRouter({
       path: '/posts/personal-goals-2024',
       name: 'personal-goals-2024',
       component: PersonalGoals2024,
+    },
+    {
+      path: '/posts/notes-and-tracking-1',
+      name: 'notes-and-tracking-1',
+      component: NotesAndTracking1,
     },
     {
       path: '/posts/law-app-diary-1',
