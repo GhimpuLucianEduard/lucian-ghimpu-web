@@ -17,7 +17,7 @@ export const useStore = defineStore({
       currentFact: facts[Math.floor(Math.random() * facts.length)],
       posts: posts,
       tags: Array.from(new Set(posts.flatMap((post) => post.tags))),
-      highlightedTags: ['Android', 'Compose', 'Dev Diary', 'FIRE', 'Lifestyle'],
+      highlightedTags: ['Android', 'Compose', 'Dev Diary', 'FIRE', 'Lifestyle', 'Medium'],
     } as RootState),
   actions: {
     randomizeFact() {
@@ -45,8 +45,25 @@ const facts = [
 
 const posts = [
   {
+    title: 'Per-App Language Preferences in Jetpack Compose',
+    subtitle: 'March 27, 2024 - Reading Time: 5 minutes',
+    tags: ['Android', 'Compose', 'Medium'],
+    intro:
+      '📕 A step-by-step guide to supporting both in-app language picker and per-app language setting in Jetpack Compose.',
+    link: 'https://medium.com/@lucianghimpu/per-app-language-preferences-in-jetpack-compose-531f0c8e8440',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1711553472/lucianghimpu.com/medium/language-setting.png',
+    content: `
+      <p>
+        I was working on a project and one of the requirements was to support an in-app language picker. If you are an Android Developer you know this subject always sparks debates.
+      </p>
+
+      <em>Why?</em>
+      `,
+  },
+  {
     title: 'Note Taking & Data Tracking: The Endless Quest for the Right Tool',
-    subtitle: 'March 18, 2023 - Reading Time: 10 minutes',
+    subtitle: 'March 18, 2024 - Reading Time: 10 minutes',
     tags: ['Personal', 'Productivity', 'Lifestyle'],
     intro: 'Am I the only one that struggles to find the right all-in-one note taking app?',
     link: '/posts/notes-and-tracking-1',
@@ -116,6 +133,22 @@ const posts = [
           </a>
         </li>
       </ol>
+      `,
+  },
+  {
+    title: 'Code TextField in Jetpack Compose 🔐',
+    subtitle: 'Jan 25, 2024 - Reading Time: 3 minutes',
+    tags: ['Android', 'Compose', 'Medium'],
+    intro: 'A Component for 2FA-Style Input Texts',
+    link: 'https://medium.com/p/32e9bc07b8e9',
+    image:
+      'https://res.cloudinary.com/dkcw58wif/image/upload/v1711553479/lucianghimpu.com/medium/code-text-field.webp',
+    content: `
+      <p>
+        Recently I've started working on a side project 🧑🏻‍💻
+
+        I'll not bore you with the details, but one of the screens I was working on required a sort of CodeTextField. As the name implies, it’s an input field for codes. Think of those auth codes apps used to confirm your identity via 2FA. In my app, it’s not for 2FA, but for granting access to a game lobby.
+      </p>
       `,
   },
   {
@@ -455,7 +488,7 @@ const posts = [
   {
     title: 'Kotlin Multiplatform library with Kotest and Gradle Version Catalog',
     subtitle: 'January 23, 2022 • Reading Time: 6 minutes',
-    tags: ['Kotlin', 'Kotest', 'Gradle'],
+    tags: ['Kotlin', 'Kotest', 'Gradle', 'Medium'],
     intro: 'Spice up the default Kotlin Multiplatform project 🌶',
     link: 'https://medium.com/dev-genius/kotlin-multiplatform-library-with-kotest-and-gradle-version-catalog-23861a6f1bb1',
     image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1692309102/post-preview-2.webp',
@@ -482,7 +515,7 @@ const posts = [
   {
     title: 'Setting up Google Analytics and cookie policy in Vue.js',
     subtitle: 'July 25, 2021 • Reading Time: 4 minutes',
-    tags: ['Vue.js', 'Vue3', 'GTM'],
+    tags: ['Vue.js', 'Vue3', 'GTM', 'Medium'],
     intro: 'A clean and fast approach using the Composition API 🍪',
     link: 'https://medium.com/@lucianghimpu/every-time-i-am-ready-to-release-a-website-app-i-face-the-tedious-task-of-setting-up-google-f36052d3b21e',
     image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1692309102/post-preview-1.webp',
