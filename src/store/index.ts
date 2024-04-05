@@ -13,11 +13,11 @@ export const useStore = defineStore({
   id: 'store',
   state: () =>
     ({
-      facts: facts,
       currentFact: facts[Math.floor(Math.random() * facts.length)],
+      facts: facts,
+      highlightedTags: ['Android', 'Compose', 'Dev Diary', 'FIRE', 'Lifestyle', 'Medium'],
       posts: posts,
       tags: Array.from(new Set(posts.flatMap((post) => post.tags))),
-      highlightedTags: ['Android', 'Compose', 'Dev Diary', 'FIRE', 'Lifestyle', 'Medium'],
     } as RootState),
   actions: {
     randomizeFact() {
@@ -45,14 +45,29 @@ const facts = [
 
 const posts = [
   {
+    title: 'Navigating the Tech Job Market in Europe: Insights and Tips',
+    subtitle: 'April 05, 2024 - Reading Time: 12 minutes',
+    tags: ['Android', 'Personal'],
+    intro: '',
+    link: '/posts/android-interview-guide',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1712331913/lucianghimpu.com/android-interview/post-image.jpg',
+    content: `
+      <p>
+        Recently, I applied for various
+        <b class="text-indigo">Android Mid-Senior roles</b>
+        in Europe and I ended up joining
+        <a class="text-indigo" href="https://qonto.com/en">Qonto</a>
+        as a Senior Android Engineer 🎉
+      </p>
+      `,
+  },
+  {
     title: 'Per-App Language Preferences in Jetpack Compose',
     subtitle: 'March 27, 2024 - Reading Time: 5 minutes',
     tags: ['Android', 'Compose', 'Medium'],
-    intro:
-      '📕 A step-by-step guide to supporting both in-app language picker and per-app language setting in Jetpack Compose.',
+    intro: '📕 A step-by-step guide to supporting both in-app language picker and per-app language setting in Jetpack Compose.',
     link: 'https://medium.com/@lucianghimpu/per-app-language-preferences-in-jetpack-compose-531f0c8e8440',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1711553472/lucianghimpu.com/medium/language-setting.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1711553472/lucianghimpu.com/medium/language-setting.png',
     content: `
       <p>
         I was working on a project and one of the requirements was to support an in-app language picker. If you are an Android Developer you know this subject always sparks debates.
@@ -67,8 +82,7 @@ const posts = [
     tags: ['Personal', 'Productivity', 'Lifestyle'],
     intro: 'Am I the only one that struggles to find the right all-in-one note taking app?',
     link: '/posts/notes-and-tracking-1',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1710776238/lucianghimpu.com/notes-and-tracking-1/post-image.webp',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1710776238/lucianghimpu.com/notes-and-tracking-1/post-image.webp',
     content: `
       <p>
         Ok, so hear me out, for years I've been trying out different solutions for note taking and
@@ -91,8 +105,7 @@ const posts = [
     tags: ['Startup'],
     intro: 'Ok, so hear me out',
     link: '/posts/law-app-diary-1',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1707599148/lucianghimpu.com/law-app-1/post-image.webp',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1707599148/lucianghimpu.com/law-app-1/post-image.webp',
     content: `
       <p>
         I came up with what I think is a somewhat useful idea. Now, I don't want to spoil the full
@@ -111,8 +124,7 @@ const posts = [
     tags: ['FIRE', 'Books'],
     intro: '"Progress happens too slowly to notice, but setbacks happen too quickly to ignore."',
     link: '/posts/fire-8',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-8/post-image.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-8/post-image.png',
     content: `
       <p>
         So here we are in the final third of the amazing book:
@@ -141,8 +153,7 @@ const posts = [
     tags: ['Android', 'Compose', 'Medium'],
     intro: 'A Component for 2FA-Style Input Texts',
     link: 'https://medium.com/p/32e9bc07b8e9',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1711553479/lucianghimpu.com/medium/code-text-field.webp',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1711553479/lucianghimpu.com/medium/code-text-field.webp',
     content: `
       <p>
         Recently I've started working on a side project 🧑🏻‍💻
@@ -155,11 +166,9 @@ const posts = [
     title: "You're not a spreadsheet. You're a person - Part 2",
     subtitle: 'January 19, 2024 - Reading Time: 7 minutes',
     tags: ['FIRE', 'Books'],
-    intro:
-      "If I had to be a spreadsheet, I would be a Google Sheet; because I'm always in the cloud ☁️",
+    intro: "If I had to be a spreadsheet, I would be a Google Sheet; because I'm always in the cloud ☁️",
     link: '/posts/fire-7',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-7/post-image.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-7/post-image.png',
     content: `
       <p>I'm sorry for the joke 🫠</p>
       <p>
@@ -183,8 +192,7 @@ const posts = [
     tags: ['FIRE', 'Books'],
     intro: 'I picked up a new book over the weekend, and surprisingly, I got hooked on it!',
     link: '/posts/fire-6',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-6/post-image.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1704906359/lucianghimpu.com/fire-6/post-image.png',
     content: `
       <p>
         The book is
@@ -206,8 +214,7 @@ const posts = [
     tags: ['Android', 'WebSockets', 'Dev Diary'],
     intro: "It's been a while since my latest update 🫠",
     link: '/posts/dev-diary-5',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704397303/lucianghimpu.com/dev-diary-5/post-image.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1704397303/lucianghimpu.com/dev-diary-5/post-image.png',
     content: `
       <p>
         Truth be told, I had time to work on the app, but I just didn't feel like it. So, no smart
@@ -223,8 +230,7 @@ const posts = [
     tags: ['FIRE'],
     intro: 'This year, I reached an important milestone: $100k net worth 🎉',
     link: '/posts/fire-5',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1704007354/lucianghimpu.com/fire-5/post-image.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1704007354/lucianghimpu.com/fire-5/post-image.png',
     content: `
       <p>
         <b>⚠️ DISCLAIMER:</b>
@@ -242,8 +248,7 @@ const posts = [
     tags: ['Personal', 'Lifestyle'],
     intro: "Time for some concrete goals, don't you think? 🫡",
     link: '/posts/personal-goals-2024',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1703185637/lucianghimpu.com/blog-generic/2024-goals-image.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1703185637/lucianghimpu.com/blog-generic/2024-goals-image.png',
     content: `
       <p>
         I'm a numbers guy, so this year I decided to have my 2024 goals backed by actual numbers.
@@ -259,8 +264,7 @@ const posts = [
     tags: ['FIRE', 'Books'],
     intro: 'I continued to reflect on my Ikigai 🤔',
     link: '/posts/fire-4',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1702576287/lucianghimpu.com/fire-4/fire-4.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1702576287/lucianghimpu.com/fire-4/fire-4.png',
     content: `
       <p>
         As I mentioned in the
@@ -282,8 +286,7 @@ const posts = [
     tags: ['FIRE', 'Books'],
     intro: 'About three years ago, I learned about the Japanese concept of IKIGAI 🇯🇵',
     link: '/posts/fire-3',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-3/post.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-3/post.png',
     content: `
       <p>
         It was quite random actually. My colleague and manager at the time,
@@ -301,8 +304,7 @@ const posts = [
     tags: ['FIRE'],
     intro: 'Have you started investing yet? 🫡',
     link: '/posts/fire-2',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-2/fire-two.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-2/fire-two.png',
     content: `
       <p>
         In the
@@ -327,8 +329,7 @@ const posts = [
     tags: ['FIRE'],
     intro: 'Have you ever heard about FIRE and the 4% rule? 👀',
     link: '/posts/fire-1',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-1/fire-one.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1700523231/lucianghimpu.com/fire-1/fire-one.png',
     content: `
       <p>
         Well, if you're in the tech bubble, you probably have. But for those unfamiliar, FIRE
@@ -347,8 +348,7 @@ const posts = [
     tags: ['Android', 'Compose', 'Dev Diary'],
     intro: '📲 Next up: the Android Project',
     link: '/posts/dev-diary-4',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1698934984/lucianghimpu.com/dev-diary-4/intro.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1698934984/lucianghimpu.com/dev-diary-4/intro.png',
     content: `
       <p>
         Just like I mentioned in my previous dev diary entry, I'm taking a top-down approach. So,
@@ -387,8 +387,7 @@ const posts = [
     tags: ['Figma', 'UI/UX', 'Dev Diary'],
     intro: '🍝 Pasta, Wine and Figma',
     link: '/posts/dev-diary-3',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-3/dev-diary-3.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-3/dev-diary-3.png',
     content: `
       <p>
         It feels like forever since my last dev diary entry. That's because I hit pause on
@@ -408,8 +407,7 @@ const posts = [
     tags: ['Node.js', 'WebSockets', 'Dev Diary'],
     intro: '📆 Past Week Progress',
     link: '/posts/dev-diary-2',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-2/dev-diary-2.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-2/dev-diary-2.png',
     content: `
     <p>
         Last week, I dove deep into the backend part, and it's shaping up quite nicely. We've got
@@ -431,8 +429,7 @@ const posts = [
     tags: ['Node.js', 'WebSockets', 'Dev Diary'],
     intro: '👀 Where Did My Motivation Go?',
     link: '/posts/dev-diary-1',
-    image:
-      'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-1/dev-diary-1.png',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1691762564/lucianghimpu.com/dev-diary-1/dev-diary-1.png',
     content: `
     <p>
         Over the past months, I've hit several roadblocks trying to kick off, maintain, or wrap up
