@@ -41,9 +41,35 @@ const facts = [
   '#12 I lived in italy for 10 years, my entire childhood 🇮🇹',
   "#13 I'm pretty sure I can eat an infinite amount of Sushi 🍣",
   '#14 As a kid, I wanted to be a researcher 🔬',
+  '#15 I have a pretty good memory 🧠',
+  '#16 I love LEGO 🧱',
 ];
 
 const posts = [
+  {
+    title: '📊 2024 Goals: Mid-Year Update',
+    subtitle: 'June 30, 2024 - Reading Time: 5 minutes',
+    tags: ['Personal', 'Lifestyle'],
+    intro: '',
+    link: '/posts/personal-goals-2024-mid-year-update',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1719751390/lucianghimpu.com/2024-goals-mid-update/intro-image.jpg',
+    content: `
+      <p>
+        Ok so right now probably all companies are doing they mid-year update, all-hands, OKR review etc... So I thought that would be the
+        perfect moment to also do a
+        <b>review</b>
+        of my goals progress in the past half year.
+      </p>
+
+      <p>
+        ℹ️ For context, I set some goals ~6 months ago
+        <a class="underline text-indigo" href="/posts/personal-goals-2024">here,</a>
+        and I tried to also find some metrics to measure my progress.
+      </p>
+
+      <p>Fast forward to today, let's see how I did 👀</p>
+      `,
+  },
   {
     title: 'Navigating the Tech Job Market in Europe: Insights and Tips',
     subtitle: 'April 05, 2024 - Reading Time: 12 minutes',

@@ -12,6 +12,8 @@
     "netlify": "netlify dev"
   },
   "dependencies": {
+    "@cloudinary/url-gen": "^1.19.0",
+    "@cloudinary/vue": "^1.12.1",
     "@highlightjs/vue-plugin": "^2.1.0",
     "highlight.js": "^11.8.0",
     "lambda-rate-limiter": "^3.0.1",
