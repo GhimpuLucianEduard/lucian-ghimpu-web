@@ -14,8 +14,8 @@
       </figure>
 
       <p>
-        Ok so right now probably all companies are doing they mid-year update, all-hands, OKR review etc... So I thought that would be the
-        perfect moment to also do a
+        Ok, so right now probably all companies are doing their mid-year updates, all-hands, OKR reviews, etc. So I thought this would be
+        the perfect moment to also do a
         <b>review</b>
         of my goals progress in the past half year.
       </p>
@@ -39,7 +39,7 @@
       </figure>
 
       <p>
-        Well the overall progress is at about
+        Well, the overall progress is at about
         <span class="text-orange-500">~45%</span>
         of the expected progress. So I'm a bit behind, not by a LOT, but still behind.
       </p>
@@ -68,8 +68,8 @@
       </p>
 
       <p>
-        This is my first time I actually try to measure with numbers all by yearly goals so I did expect to overestimate/underestimate some
-        of them.
+        This is the first time I actually try to measure all my yearly goals with numbers, so I did expect to overestimate/underestimate
+        some of them.
       </p>
 
       <em>Now let's dive into each category 🏊‍️</em>
@@ -77,7 +77,7 @@
       <h2>🏋️ Fitness</h2>
 
       <p>
-        I'm not gonna lie, I facing some challenges in this area. It's not that easy to balance both
+        I'm not gonna lie, I’m facing some challenges in this area. It's not that easy to balance both
         <span class="font-bold text-indigo">Weightlifting</span>
         and
         <span class="font-bold text-indigo">Brazilian Jiu-Jitsu.</span>
@@ -89,9 +89,9 @@
       <p>Some key moments so far:</p>
       <ul>
         <li>
-          At the begging of the year I got a nasty
+          At the beginning of the year, I got a nasty
           <span class="text-red-500 font-bold">rib injury.</span>
-          I think the cause was because my core was not strong enough yet for BJJ. That affected by BJJ practice for a couple of weeks.
+          I think the cause was my core not being strong enough yet for BJJ. That affected my BJJ practice for a couple of weeks.
         </li>
         <li>
           I got
@@ -99,19 +99,19 @@
           at BJJ 🎉
         </li>
         <li>
-          I tap less often, before it was kinda common for me to tap 3-5 times in a sparing round with someone with some experience. Right
-          now I can hold my ground for the full round without tapping!
+          I tap less often; before, it was kinda common for me to tap 3-5 times in a sparring round with someone with some experience. Right
+          now, I can hold my ground for the full round without tapping!
         </li>
-        <li>I TAPPED SOMEONE - sometimes I still not believe wen I submit someone 🫠</li>
+        <li>I TAPPED SOMEONE - sometimes I still can’t believe when I submit someone 🫠</li>
         <li>
-          And right now I'm dealing with a
+          And right now, I'm dealing with a
           <span class="text-yellow-500 font-bold">mild trap injury...</span>
         </li>
       </ul>
 
       <p>
-        As you can see, all the key moment are related to BJJ, and not so much to weightlifting. And to be honest I enjoy more BJJ. Taking
-        this into account, for the next half of the year I decided to:
+        As you can see, all the key moments are related to BJJ, and not so much to weightlifting. And to be honest, I enjoy BJJ more. Taking
+        this into account, for the next half of the year, I decided to:
       </p>
       <ol>
         <li>
@@ -139,14 +139,14 @@
       <h2>🧠 Self Development & 🎨 Creativity</h2>
 
       <p>
-        This is not going very well. I think it's my fault because I've underestimated how hard is to write some actual good content or
-        significant for me at least.
+        This is not going very well. I think it's my fault because I've underestimated how hard it is to write some actual good content or
+        significant content for me at least.
       </p>
 
       <p>
-        I set as a goal to write
+        I set a goal to write
         <span class="text-indigo font-bold">1 blog post per week.</span>
-        So far taking into account this post, I wrote 10 posts out of 52. So I decided to reduce this goal to
+        So far, taking into account this post, I wrote 10 posts out of 52. So I decided to reduce this goal to
         <span class="text-yellow-500 font-bold">1.5 posts per month.</span>
       </p>
 
@@ -173,22 +173,22 @@
         <li>
           I was
           <span class="text-red-500 font-bold">laid off</span>
-          in the first quarter of the year. This disrupted a little bit my cash-flow in that period
+          in the first quarter of the year. This disrupted my cash flow a little bit during that period.
         </li>
         <li>
-          I changed company which also resulted in a
+          I changed companies which also resulted in a
           <span class="text-green-500 font-bold">salary increase</span>
         </li>
         <li>
           The stock market is doing quite well lately and
           <span class="text-indigo font-bold">~40%</span>
-          of my net-worth is into ETFs
+          of my net worth is in ETFs
         </li>
         <li>I've started putting more effort into improving my saving rate</li>
       </ul>
 
       <p>
-        Since I'm pretty sure I'm on track to achive the
+        Since I'm pretty sure I'm on track to achieve the
         <span class="text-indigo font-bold">33%</span>
         net worth increase, I'm updating it to
         <span class="text-indigo font-bold">40%</span>
@@ -197,9 +197,9 @@
       <p>
         One aspect I want to improve is to start investing
         <em class="font-semibold">potentially</em>
-        into
+        in
         <span class="text-indigo font-bold">real estate.</span>
-        And in general to start learning more about this area. I'm not the biggest fan of real estate, but I think it's worth putting some
+        And in general, to start learning more about this area. I'm not the biggest fan of real estate, but I think it's worth putting some
         time into it.
       </p>
 
@@ -217,7 +217,7 @@
       <ul>
         <li>
           Visited Tenerife 🏝 and
-          <span class="text-indigo font-bold">felt in love</span>
+          <span class="text-indigo font-bold">fell in love</span>
           with it
         </li>
         <li>
@@ -244,7 +244,7 @@
 
       <h2>Any new goals?</h2>
 
-      <p>I don't think so. I think I have enough on my plate right now. I'll try to focus on the current goals and try to achieve them.</p>
+      <p>I don't think so. I think I have enough on my plate right now. I'll try to focus on the current goals and achieve them.</p>
 
       <h2>Conclusions</h2>
 
@@ -256,15 +256,18 @@
       </p>
 
       <p>
-        What I'm sure is that actually keeping track of them and measuring them is a good idea. Otherwise I'm 100% sure I would have not
+        What I'm sure of is that actually keeping track of them and measuring them is a good idea. Otherwise, I'm 100% sure I would have not
         made the same progress. Let's see how the next half of the year goes 🔜
       </p>
     </article>
   </div>
 </template>
+
 <script setup lang="ts">
 import { AdvancedImage } from '@cloudinary/vue';
 import useCloudinary from '@/composables/useCloudinary';
 
 const cloudinary = useCloudinary();
 </script>
+
+<style scoped></style>

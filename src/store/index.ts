@@ -55,8 +55,8 @@ const posts = [
     image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1719751390/lucianghimpu.com/2024-goals-mid-update/intro-image.jpg',
     content: `
       <p>
-        Ok so right now probably all companies are doing they mid-year update, all-hands, OKR review etc... So I thought that would be the
-        perfect moment to also do a
+        Ok, so right now probably all companies are doing their mid-year updates, all-hands, OKR reviews, etc. So I thought this would be
+        the perfect moment to also do a
         <b>review</b>
         of my goals progress in the past half year.
       </p>
