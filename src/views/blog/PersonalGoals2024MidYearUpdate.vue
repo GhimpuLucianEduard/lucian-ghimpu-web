@@ -173,7 +173,7 @@
         <li>
           I was
           <span class="text-red-500 font-bold">laid off</span>
-          in the first quarter of the year. This disrupted my cash flow a little bit during that period.
+          in the first quarter of the year. This disrupted my cash flow a little bit during that period
         </li>
         <li>
           I changed companies which also resulted in a
@@ -229,7 +229,7 @@
           And already planning the next trips to
           <span class="font-bold">🇮🇹 Italy</span>
           and
-          <span class="font-bold">🇬🇷 Greece</span>
+          <span class="font-bold">🇬🇷 Greece</span> with my girlfriend 🥰
         </li>
         <li>Did plenty of hiking</li>
       </ul>
