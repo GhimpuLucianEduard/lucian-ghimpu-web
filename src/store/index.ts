@@ -54,8 +54,8 @@ const posts = [
     link: 'https://medium.com/@lucianghimpu/vue3-and-cloudinary-integration-81dffd486495',
     image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1722774609/lucianghimpu.com/medium/image-load.png',
     content: `
+      <p><b>Context</b></p>
       <p>
-        <b>Context</b>
         Recently I was building a small/medium website that was very heavy on images. 
         So let me tell you a short story about how I <b>improved</b> (and still am) the actual and perceived image load time 📈
       </p>
