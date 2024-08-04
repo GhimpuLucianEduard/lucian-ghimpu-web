@@ -47,6 +47,21 @@ const facts = [
 
 const posts = [
   {
+    title: 'Vue3 and Cloudinary Integration',
+    subtitle: 'August 4, 2024 - Reading Time: 4 minutes',
+    tags: ['Vue.js', 'Vue3', 'Medium'],
+    intro: 'Improve your website image loading time by 95% in 5 minutes ⚡️',
+    link: 'https://medium.com/@lucianghimpu/vue3-and-cloudinary-integration-81dffd486495',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1722774609/lucianghimpu.com/medium/image-load.png',
+    content: `
+      <p>
+        <b>Context</b>
+        Recently I was building a small/medium website that was very heavy on images. 
+        So let me tell you a short story about how I <b>improved</b> (and still am) the actual and perceived image load time 📈
+      </p>
+      `,
+  },
+  {
     title: '📊 2024 Goals: Mid-Year Update',
     subtitle: 'June 30, 2024 - Reading Time: 5 minutes',
     tags: ['Personal', 'Lifestyle'],
