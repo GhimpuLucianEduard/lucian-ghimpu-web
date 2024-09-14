@@ -11,14 +11,14 @@
 
       <p>
         Recently I built
-        <a class="text-indigo underline font-bold" href="https://www.ibangen.io/">wwww.ibangen.io</a>
+        <a class="text-indigo underline font-bold" href="https://www.ibangen.io/">www.ibangen.io</a>
         - a small website to generate IBANs.
       </p>
 
       <em>Why?</em>
 
       <p>
-        Well, to be honest to help me as a Developer, I was not happy with any other solutions and also
+        Well, to be honest, to help me as a Developer, I was not happy with any other solutions and also
         <b class="text-indigo">for fun.</b>
       </p>
 

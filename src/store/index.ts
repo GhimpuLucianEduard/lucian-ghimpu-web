@@ -57,7 +57,7 @@ const posts = [
 
       <p>
         Recently I built
-        <a class="text-indigo underline font-bold" href="https://www.ibangen.io/">wwww.ibangen.io</a>
+        <a class="text-indigo underline font-bold" href="https://www.ibangen.io/">www.ibangen.io</a>
         - a small website to generate IBANs.
       </p>
 
