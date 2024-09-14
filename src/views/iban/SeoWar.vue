@@ -11,7 +11,7 @@
 
       <p>
         Recently I build
-        <a class="text-indigo underline font-bold" href="https://www.ibangen.io/">wwww.ibange.io</a>
+        <a class="text-indigo underline font-bold" href="https://www.ibangen.io/">wwww.ibangen.io</a>
         - a small website to generate IBANs.
       </p>
 
