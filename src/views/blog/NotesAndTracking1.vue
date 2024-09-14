@@ -3,7 +3,7 @@
     <article class="prose dark:prose-invert lg:w-[856px]">
       <h1>Note Taking & Data Tracking: The Endless Quest for the Right Tool</h1>
 
-      <em>March 18, 2023 - Reading Time: 10 minutes</em>
+      <em>March 18, 2024 - Reading Time: 10 minutes</em>
 
       <figure>
         <img

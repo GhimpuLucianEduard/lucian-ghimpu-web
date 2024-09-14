@@ -28,6 +28,7 @@ import TermsOfUsePageVue from '@/views/TermsOfUsePage.vue';
 import LawAppDiaryOneVue from '@/views/law-app-diary/LawAppDiaryOne.vue';
 import AndroidInterviewGuide from '@/views/blog/AndroidInterviewGuide.vue';
 import PersonalGoals2024MidYearUpdate from "@/views/blog/PersonalGoals2024MidYearUpdate.vue";
+import SeoWar from '@/views/iban/SeoWar.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -174,6 +175,11 @@ const router = createRouter({
       path: '/posts/personal-goals-2024-mid-year-update',
       name: 'personal-goals-2024-mid-year-update',
       component: PersonalGoals2024MidYearUpdate,
+    },
+    {
+      path: '/posts/seo-war',
+      name: 'seo-war',
+      component: SeoWar,
     },
     { path: '/:pathMatch(.*)*', component: NotFound },
   ],

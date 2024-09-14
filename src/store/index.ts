@@ -47,6 +47,24 @@ const facts = [
 
 const posts = [
   {
+    title: "⚔️ I'm about to wage a SEO War",
+    subtitle: 'September 15, 2024 - Reading Time: 3 minutes',
+    tags: ['Personal', 'SEO'],
+    intro: '',
+    link: '/posts/seo-war',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1726323765/lucianghimpu.com/iban/iban-site.png',
+    content: `
+
+      <p>
+        Recently I build
+        <a class="text-indigo underline font-bold" href="https://www.ibangen.io/">wwww.ibange.io</a>
+        - a small website to generate IBANs.
+      </p>
+
+      <em>Why?</em>
+      `,
+  },
+  {
     title: 'Vue3 and Cloudinary Integration',
     subtitle: 'August 4, 2024 - Reading Time: 4 minutes',
     tags: ['Vue.js', 'Vue3', 'Medium'],
