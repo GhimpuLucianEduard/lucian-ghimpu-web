@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col lg:flex-row items-center w-full">
     <div class="flex flex-col items-center xl:w-5/12">
-      <div class="flex flex-row justify-center">
+      <div class="flex flex-row justify-center items-center">
         <slot name="icon"></slot>
         <p class="xl:text-3xl text-2xl font-semibold text-center ml-4">{{ title }}</p>
       </div>

@@ -29,6 +29,7 @@ import LawAppDiaryOneVue from '@/views/law-app-diary/LawAppDiaryOne.vue';
 import AndroidInterviewGuide from '@/views/blog/AndroidInterviewGuide.vue';
 import PersonalGoals2024MidYearUpdate from "@/views/blog/PersonalGoals2024MidYearUpdate.vue";
 import SeoWar from '@/views/iban/SeoWar.vue';
+import IbanGen from "@/views/projects/IbanGenPage.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -60,6 +61,11 @@ const router = createRouter({
       path: '/projects',
       name: 'projects',
       component: ProjectsOverview,
+    },
+    {
+      path: '/ibangen',
+      name: 'ibangen',
+      component: IbanGen,
     },
     {
       path: '/matchmefy',
