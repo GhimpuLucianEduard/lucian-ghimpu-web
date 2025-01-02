@@ -52,7 +52,7 @@ const posts = [
     tags: ['Personal', 'Lifestyle'],
     intro: 'Running My Life Like a Fortune 500 Company 📈',
     link: '/posts/personal-goals-2025',
-    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1735825561/lucianghimpu.com/goals-2025/IMG_2857_2.jpg',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1735825561/lucianghimpu.com/goals-2025/post-image.jpg',
     content: `
       <p>
         <b>TL;DR:</b> One year ago I decided to track my life using actual metrics.
