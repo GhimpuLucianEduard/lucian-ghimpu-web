@@ -36,7 +36,7 @@
         <figcaption>The Notion Database at the inception</figcaption>
       </figure>
 
-      <p>Later on, in the middle of the year I had review of said goals and adjusted them. You can read more about it <a
+      <p>Later on, in the middle of the year I had a review of said goals and adjusted them. You can read more about it <a
         class="text-indigo" href="/posts/personal-goals-2024-mid-year-update">
         here</a>
       </p>
@@ -49,7 +49,7 @@
         <figcaption>Update goals after 6 months</figcaption>
       </figure>
 
-      <p>Finally we reached the end of the year at here's the final look:</p>
+      <p>Finally we reached the end of the year and here's the final look:</p>
 
       <figure>
         <AdvancedImage
@@ -105,7 +105,7 @@
 
       <h3>2024 Takeaways</h3>
 
-      <p>Given that it was the first time actually tracking with some numbers I'm overall ok with the outcome.</p>
+      <p>Given that it was the first time actually tracking with some numbers, I'm overall ok with the outcome.</p>
 
       <ol>
         <li>I <b>overestimated</b> my creativity as 52 posts (1 per week) from writing one once a few months was
@@ -122,7 +122,7 @@
       <em>To be honest, more or less the same.</em>
 
       <p>If I learned something from BJJ and investing is that <b>consistency</b> is the key. Of course I did some minor
-        adjustments, removed some goals, added others, by I think the key is to just keep doing it.</p>
+        adjustments, removed some goals, added others, but I think the key is to just keep doing it.</p>
 
       <p>Let's have a quick look 👀 at them:</p>
 
@@ -150,7 +150,7 @@
         <li>🕵️ <b>Review them</b> - I've found it quite motivating to see the progress</li>
         <li><b>Adjust them </b> - I think it's ok to "recalibrate" them during the year, your a person not a company
         </li>
-        <li><b>Be realistic </b> - just look at how it went with by <b>52</b> posts 🤡</li>
+        <li><b>Be realistic </b> - just look at how it went with my <b>52</b> posts 🤡</li>
         <li><b>Avoid too much granularity</b> - I've found that too many goals can be overwhelming</li>
       </ul>
 
