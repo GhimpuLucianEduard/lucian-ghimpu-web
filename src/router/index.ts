@@ -30,6 +30,7 @@ import AndroidInterviewGuide from '@/views/blog/AndroidInterviewGuide.vue';
 import PersonalGoals2024MidYearUpdate from "@/views/blog/PersonalGoals2024MidYearUpdate.vue";
 import SeoWar from '@/views/iban/SeoWar.vue';
 import IbanGen from "@/views/projects/IbanGenPage.vue";
+import Goals2025 from "@/views/blog/Goals2025.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -186,6 +187,11 @@ const router = createRouter({
       path: '/posts/seo-war',
       name: 'seo-war',
       component: SeoWar,
+    },
+    {
+      path: '/posts/personal-goals-2025',
+      name: 'goals-2025',
+      component: Goals2025,
     },
     { path: '/:pathMatch(.*)*', component: NotFound },
   ],

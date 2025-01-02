@@ -47,6 +47,20 @@ const facts = [
 
 const posts = [
   {
+    title: '2024 Review & 2025 Goals 🎯',
+    subtitle: 'January 02, 2025 - Reading Time: 3 minutes',
+    tags: ['Personal', 'Lifestyle'],
+    intro: 'Running My Life Like a Fortune 500 Company 📈',
+    link: '/posts/personal-goals-2025',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1735825561/lucianghimpu.com/goals-2025/IMG_2857_2.jpg',
+    content: `
+      <p>
+        <b>TL;DR:</b> One year ago I decided to track my life using actual metrics.
+        And now it's time to see how it went and set new goals for 2025 🚀
+      </p>
+      `,
+  },
+  {
     title: "⚔️ I'm about to wage a SEO War",
     subtitle: 'September 15, 2024 - Reading Time: 3 minutes',
     tags: ['Personal', 'SEO'],
