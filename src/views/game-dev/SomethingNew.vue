@@ -13,7 +13,7 @@
       </figure>
 
       <p>
-        Do you know guys that feeling when watching the <a href="https://www.youtube.com/@OutdoorBoys/videos">OutdoorBoys</a>
+        Do you guys know that feeling when watching the <a href="https://www.youtube.com/@OutdoorBoys/videos">OutdoorBoys</a>
         YouTube channel?
       </p>
 
@@ -201,7 +201,7 @@
       <h2>And then what?</h2>
 
       <p>More pixel art and more "pure-coding" - the perfect blend of creativity and problem solving. I think I found my
-        Outdoor boys moment.
+        Outdoor Boys moment.
       </p>
 
     </article>

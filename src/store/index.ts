@@ -56,7 +56,7 @@ const posts = [
     image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png',
     content: `
       <p>
-        Do you know guys that feeling when watching the <a href="https://www.youtube.com/@OutdoorBoys/videos">OutdoorBoys</a>
+        Do you guys know that feeling when watching the <a href="https://www.youtube.com/@OutdoorBoys/videos">OutdoorBoys</a>
         YouTube channel?
       </p>
       
