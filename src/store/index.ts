@@ -43,9 +43,28 @@ const facts = [
   '#14 As a kid, I wanted to be a researcher 🔬',
   '#15 I have a pretty good memory 🧠',
   '#16 I love LEGO 🧱',
+  '#17 My first level 100 pokemon was Typhlosion 🔥',
 ];
 
 const posts = [
+  {
+    title: 'Vim, Game Dev and the Outdoor Boys 🏔️',
+    subtitle: 'November 23, 2025 - Reading Time: 5 minutes',
+    tags: ['Game Dev'],
+    into: '',
+    link: '/game-dev/something-new',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png',
+    content: `
+      <p>
+        Do you know guys that feeling when watching the <a href="https://www.youtube.com/@OutdoorBoys/videos">OutdoorBoys</a>
+        YouTube channel?
+      </p>
+      
+      <p>I'm not sure how to describe it, but part of it makes me want throw my computer away. Now, that's not too smart
+        as I kinda earn my living with it 😭
+      </p>
+      `,
+  },
   {
     title: '2024 Review & 2025 Goals 🎯',
     subtitle: 'January 02, 2025 - Reading Time: 3 minutes',
@@ -177,7 +196,7 @@ const posts = [
     subtitle: 'February 10, 2024 - Reading Time: 5 minutes',
     tags: ['Startup'],
     intro: 'Ok, so hear me out',
-    link: '/posts/law-app-diary-1',
+    link: '/game-dev/law-app-diary-1',
     image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1707599148/lucianghimpu.com/law-app-1/post-image.webp',
     content: `
       <p>
