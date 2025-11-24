@@ -209,12 +209,25 @@
 </template>
 
 <script setup lang="ts">
-
 import { AdvancedImage } from "@cloudinary/vue";
 
 import useCloudinary from "@/composables/useCloudinary";
+import { onMounted } from "vue";
+import { useHead } from "@unhead/vue";
 
 const cloudinary = useCloudinary();
+
+
+onMounted(() => {
+  useHead({
+    meta: [
+      {
+        property: "og:image",
+        content: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png"
+      }
+    ]
+  });
+});
 </script>
 
 <style scoped lang="postcss">
