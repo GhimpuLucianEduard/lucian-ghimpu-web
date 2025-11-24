@@ -212,42 +212,37 @@
 import { AdvancedImage } from "@cloudinary/vue";
 
 import useCloudinary from "@/composables/useCloudinary";
-import { onMounted } from "vue";
 import { useSeoMeta } from "@unhead/vue";
 
 const cloudinary = useCloudinary();
 
 useSeoMeta({
-  // title & descriptions
-  ogTitle: "My Awesome Product",
-  ogDescription: "Learn how to bake delicious, moist cupcakes with our easy-to-follow guide. Featuring tips and tricks for beginners.",
-  twitterTitle: "My Awesome Product",
-  twitterDescription: "Learn how to bake delicious, moist cupcakes with our easy-to-follow guide. Featuring tips and tricks for beginners.",
-  // no longer explicitly used by X but may be useful for SEO
-  twitterSite: "@example",
-  twitterCreator: "@example",
-  // og image
+  title: "Vim, Game Dev and the Outdoor Boys",
+  description:
+    "From total coding burnout to falling back in love with programming — through Unity, pixel art, pure-coding bliss… and yes, even Vim motions.",
+
+  ogTitle: "Vim, Game Dev and the Outdoor Boys",
+  ogDescription:
+    "How watching Outdoor Boys on YouTube accidentally led me back to loving code — via game dev, pixel art, and the joy of “pure-coding” without AI or enterprise bloat.",
   ogImage: {
-    url: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png\"g",
+    url: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png",
     width: 1200,
     height: 600,
-    alt: "My Awesome Product",
-    type: "image/png"
+    alt: "Isometric pixel art farming game prototype in Unity — early development screenshots",
+    type: "image/png",
   },
-  twitterImage: {
-    url: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png\"",
-    width: 1200,
-    height: 600,
-    alt: "My Awesome Product",
-    type: "image/png"
-  },
-  // twitter image (note: ogImage is used as a fallback so this is optional)
-  twitterCard: "summary_large_image", // or summary
-  // used by Slack
-  twitterLabel1: "Price",
-  twitterData1: "$50",
-  twitterLabel2: "Read Time",
-  twitterData2: "10 min"
+  ogType: "article",
+  ogUrl: () => window.location.href, // dynamic current URL
+
+  twitterCard: "summary_large_image",
+  twitterTitle: "Vim, Game Dev and the Outdoor Boys",
+  twitterDescription:
+    "Burnt out from SaaS → rediscovered the joy of coding by making a pixel-art farming game in Unity… and accidentally started using Vim",
+  twitterImage: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png",
+
+  // Optional but nice
+  author: "Lucian Ghimpu",
+  robots: "index, follow",
 });
 </script>
 
