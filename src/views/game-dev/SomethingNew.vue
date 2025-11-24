@@ -219,6 +219,8 @@ const cloudinary = useCloudinary();
 
 
 onMounted(() => {
+  document.querySelectorAll('meta[property="og:image"]').forEach(el => el.remove());
+
   useHead({
     meta: [
       {
