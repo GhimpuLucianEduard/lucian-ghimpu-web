@@ -213,22 +213,41 @@ import { AdvancedImage } from "@cloudinary/vue";
 
 import useCloudinary from "@/composables/useCloudinary";
 import { onMounted } from "vue";
-import { useHead } from "@unhead/vue";
+import { useSeoMeta } from "@unhead/vue";
 
 const cloudinary = useCloudinary();
 
-
-onMounted(() => {
-  document.querySelectorAll('meta[property="og:image"]').forEach(el => el.remove());
-
-  useHead({
-    meta: [
-      {
-        property: "og:image",
-        content: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png"
-      }
-    ]
-  });
+useSeoMeta({
+  // title & descriptions
+  ogTitle: "My Awesome Product",
+  ogDescription: "Learn how to bake delicious, moist cupcakes with our easy-to-follow guide. Featuring tips and tricks for beginners.",
+  twitterTitle: "My Awesome Product",
+  twitterDescription: "Learn how to bake delicious, moist cupcakes with our easy-to-follow guide. Featuring tips and tricks for beginners.",
+  // no longer explicitly used by X but may be useful for SEO
+  twitterSite: "@example",
+  twitterCreator: "@example",
+  // og image
+  ogImage: {
+    url: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png\"g",
+    width: 1200,
+    height: 600,
+    alt: "My Awesome Product",
+    type: "image/png"
+  },
+  twitterImage: {
+    url: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png\"",
+    width: 1200,
+    height: 600,
+    alt: "My Awesome Product",
+    type: "image/png"
+  },
+  // twitter image (note: ogImage is used as a fallback so this is optional)
+  twitterCard: "summary_large_image", // or summary
+  // used by Slack
+  twitterLabel1: "Price",
+  twitterData1: "$50",
+  twitterLabel2: "Read Time",
+  twitterData2: "10 min"
 });
 </script>
 
