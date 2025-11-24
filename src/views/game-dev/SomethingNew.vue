@@ -212,38 +212,8 @@
 import { AdvancedImage } from "@cloudinary/vue";
 
 import useCloudinary from "@/composables/useCloudinary";
-import { useSeoMeta } from "@unhead/vue";
 
 const cloudinary = useCloudinary();
-
-useSeoMeta({
-  title: "Vim, Game Dev and the Outdoor Boys",
-  description:
-    "From total coding burnout to falling back in love with programming — through Unity, pixel art, pure-coding bliss… and yes, even Vim motions.",
-
-  ogTitle: "Vim, Game Dev and the Outdoor Boys",
-  ogDescription:
-    "How watching Outdoor Boys on YouTube accidentally led me back to loving code — via game dev, pixel art, and the joy of “pure-coding” without AI or enterprise bloat.",
-  ogImage: {
-    url: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png",
-    width: 1200,
-    height: 600,
-    alt: "Isometric pixel art farming game prototype in Unity — early development screenshots",
-    type: "image/png",
-  },
-  ogType: "article",
-  ogUrl: () => window.location.href, // dynamic current URL
-
-  twitterCard: "summary_large_image",
-  twitterTitle: "Vim, Game Dev and the Outdoor Boys",
-  twitterDescription:
-    "Burnt out from SaaS → rediscovered the joy of coding by making a pixel-art farming game in Unity… and accidentally started using Vim",
-  twitterImage: "https://res.cloudinary.com/dkcw58wif/image/upload/v1763927009/lucianghimpu.com/game-dev/something-new/intro.png",
-
-  // Optional but nice
-  author: "Lucian Ghimpu",
-  robots: "index, follow",
-});
 </script>
 
 <style scoped lang="postcss">

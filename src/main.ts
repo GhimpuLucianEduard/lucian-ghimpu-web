@@ -8,7 +8,6 @@ import ts from 'highlight.js/lib/languages/typescript';
 import hljsVuePlugin from '@highlightjs/vue-plugin';
 import VueGtag from 'vue-gtag';
 import { VueCookieNext } from 'vue-cookie-next';
-import { createHead } from '@unhead/vue/client';
 
 hljs.registerLanguage('json', json);
 hljs.registerLanguage('typescript', ts);
@@ -27,7 +26,6 @@ app.use(VueGtag, {
 });
 app.use(router);
 app.use(hljsVuePlugin);
-app.use(createHead());
 
 app.provide('gtag', app.config.globalProperties.$gtag);
 
