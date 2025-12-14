@@ -58,7 +58,7 @@ const posts = [
       <p>In the <a class="text-indigo" href="/game-dev/something-new">last post</a> you guys saw what one could call an
         almost middle life crisis.
 
-        But buckle up, it seems the crisis not over, in fact I managed to get my girlfriend involved too, as a designer
+        But buckle up, it seems the crisis is not over, in fact I managed to get my girlfriend involved too, as a designer
         🧑‍🎨 You know what, since it's our game, let's also give her the title of <em class="text-indigo font-bold">Chief
           Pixel Art Director</em> or CPAD for short.
       </p>

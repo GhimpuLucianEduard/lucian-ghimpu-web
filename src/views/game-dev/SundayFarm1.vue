@@ -15,7 +15,7 @@
       <p>In the <a class="text-indigo" href="/game-dev/something-new">last post</a> you guys saw what one could call an
         almost middle life crisis.
 
-        But buckle up, it seems the crisis not over, in fact I managed to get my girlfriend involved too, as a designer
+        But buckle up, it seems the crisis is not over, in fact I managed to get my girlfriend involved too, as a designer
         🧑‍🎨 You know what, since it's our game, let's also give her the title of <em class="text-indigo font-bold">Chief
           Pixel Art Director</em> or CPAD for short.
       </p>
@@ -32,13 +32,13 @@
         <figcaption>Game loop brainstorming</figcaption>
       </figure>
 
-      <p>In an very basic way, the game is farming game with some management aspect sprinked:</p>
+      <p>In an very basic way, the game is a farming game with some management aspects sprinkled:</p>
       <ol>
         <li>We <span class="text-green-500">plant</span> various plants on tiles</li>
         <li>Then in the <span class="text-blue-500">growing</span> phase there are tiny mechanics like day and night
           cycles
         </li>
-        <li>On <span class="text-yellow-500">harvest</span> we get back new plant with improved stats as plant breed and
+        <li>On <span class="text-yellow-500">harvest</span> we get back new plant with improved stats as plants breed and
           mutate
         </li>
         <li>Finally, we <span class="text-indigo">manage</span> different resources, buy upgrades, research and start
@@ -46,12 +46,12 @@
         </li>
       </ol>
 
-      <p>Besides the farming aspect, anothe core concept of the game will be the <span
+      <p>Besides the farming aspect, another core concept of the game will be the <span
         class="text-red-500">🧬 Genetics</span> aspect.</p>
 
       <p>Do you guys remember <a class="text-indigo" href="https://en.wikipedia.org/wiki/Punnett_square">Punnett
         square</a> from your
-        biology class? Yeah, something around those lies.</p>
+        biology class? Yeah, something around those lines.</p>
 
       <figure>
         <AdvancedImage
@@ -114,7 +114,7 @@
           :cld-img="cloudinary.createImageInstance('/lucianghimpu.com/game-dev/sundayfarm1/demo1.gif')"
           :plugins="cloudinary.plugins"
         />
-        <figcaption>Early GUI concepts</figcaption>
+        <figcaption>Basic tile management</figcaption>
       </figure>
 
     </article>
