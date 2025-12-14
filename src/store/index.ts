@@ -48,6 +48,25 @@ const facts = [
 
 const posts = [
   {
+    title: 'Sunday Farm #1 - Game Loop, GUI and more 🎮',
+    subtitle: 'December 14, 2025 - Reading Time: 4 minutes',
+    tags: ['Game Dev'],
+    into: '',
+    link: '/game-dev/sunday-farm-1',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1765714206/lucianghimpu.com/game-dev/sundayfarm1/intro.png',
+    content: `
+      <p>In the <a class="text-indigo" href="/game-dev/something-new">last post</a> you guys saw what one could call an
+        almost middle life crisis.
+
+        But buckle up, it seems the crisis not over, in fact I managed to get my girlfriend involved too, as a designer
+        🧑‍🎨 You know what, since it's our game, let's also give her the title of <em class="text-indigo font-bold">Chief
+          Pixel Art Director</em> or CPAD for short.
+      </p>
+
+      <p>This week I'm going to spoil some artwork from her, plus me playing around with other stuff.</p>
+      `,
+  },
+  {
     title: 'Vim, Game Dev and the Outdoor Boys 🏔️',
     subtitle: 'November 23, 2025 - Reading Time: 5 minutes',
     tags: ['Game Dev'],

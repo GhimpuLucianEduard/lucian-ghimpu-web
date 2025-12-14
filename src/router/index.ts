@@ -32,6 +32,7 @@ import SeoWar from "@/views/iban/SeoWar.vue";
 import IbanGen from "@/views/projects/IbanGenPage.vue";
 import Goals2025 from "@/views/blog/Goals2025.vue";
 import SomethingNew from "@/views/game-dev/SomethingNew.vue";
+import SundayFarm1 from "@/views/game-dev/SundayFarm1.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -198,6 +199,11 @@ const router = createRouter({
       path: "/game-dev/something-new",
       name: "something-new",
       component: SomethingNew
+    },
+    {
+      path: "/game-dev/sunday-farm-1",
+      name: "sunday-farm-1",
+      component: SundayFarm1
     },
     { path: "/:pathMatch(.*)*", component: NotFound }
   ]
