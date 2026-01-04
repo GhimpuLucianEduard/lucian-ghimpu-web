@@ -48,6 +48,19 @@ const facts = [
 
 const posts = [
   {
+    title: 'Sunday Farm #2 - Systems and going crazy with fonts',
+    subtitle: 'January 04, 2026 - Reading Time: 5 minutes',
+    tags: ['Game Dev'],
+    into: '',
+    link: '/game-dev/sunday-farm-2',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1767527323/lucianghimpu.com/game-dev/sundayfarm2/font.png',
+    content: `
+      <p>In this new entry, we trash talk OOP and struggle to create an outlined pixel font 🫠</p>
+
+      <p>I'm also thinking moving these to YouTube maybe, I really enjoy watching dev vlog videos 📹</p>
+      `,
+  },
+  {
     title: 'Sunday Farm #1 - Game Loop, GUI and more 🎮',
     subtitle: 'December 14, 2025 - Reading Time: 4 minutes',
     tags: ['Game Dev'],
