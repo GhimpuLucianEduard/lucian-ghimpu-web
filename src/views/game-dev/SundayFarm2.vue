@@ -113,6 +113,15 @@
         class="text-indigo" href="https://en.wikipedia.org/wiki/Entity_component_system">Entity Component System</a>
         that's basically what I was trying to do.</p>
 
+      <p>I'll share this diagram which is much more clear than what I did:</p>
+
+      <figure>
+        <AdvancedImage
+          :cld-img="cloudinary.createImageInstance('/lucianghimpu.com/game-dev/sundayfarm2/true-ecs.png')"
+          :plugins="cloudinary.plugins"
+        />
+      </figure>
+
       <p>TL;DR: ECS revolves around three concepts:</p>
       <ol>
         <li><b>Entities</b> - which are basically just IDs</li>
@@ -129,7 +138,6 @@
       <p>Now, my implementation is still not <em>pure-ECS</em> - I'm adapting to my use case, but I can definitely see
         the <span class="text-green-500">advantages</span> of using it. Also, I'm sure my explanation barely scratches
         the surface.. I highly recommend diving deeper into it on your own, I just wanted to share it 🫡</p>
-
 
       <h2>😭 Art part: Pixel Font Madness</h2>
 
