@@ -47,7 +47,7 @@
         <li>Potential weird hierarchical trees</li>
       </ol>
 
-      <p>1️⃣ <b>The first problem</b> was due to methods like <code>transform</code> (in each subclass) eding up having
+      <p>1️⃣ <b>The first problem</b> was due to methods like <code>transform</code> (in each subclass) ending up having
         code related to different "systems".</p>
       <ul>
         <li>Resource management</li>
@@ -96,8 +96,8 @@
       <ol>
         <li>I started moving all code related to one <b>System</b> from anywhere to that <b>System</b></li>
         <li>I've flatten my models hierarchy to the point I'm basically almost not using <b>inheritance</b></li>
-        <li>The entities are now just holding data</li>
-        <li>The system reacts based on the data on the entities</li>
+        <li>The models are now just holding data</li>
+        <li>The system reacts based on the data on the models</li>
       </ol>
 
       <figure>
@@ -105,7 +105,7 @@
           :cld-img="cloudinary.createImageInstance('/lucianghimpu.com/game-dev/sundayfarm2/semiecs.png')"
           :plugins="cloudinary.plugins"
         />
-        <figcaption>Cost, Position, Stack and Sprite are just basic data clases, our models can have any of them!
+        <figcaption>Cost, Position, Stack and Sprite are just basic data classes, our models can have any of them!
         </figcaption>
       </figure>
 
@@ -116,7 +116,7 @@
       <p>TL;DR: ECS revolves around three concepts:</p>
       <ol>
         <li><b>Entities</b> - which are basically just IDs</li>
-        <li><b>Components</b> - which are data holders, no logic (e.g. Cost)</li>
+        <li><b>Components</b> - which are data holders, no logic (e.g. <code>Position</code>)</li>
         <li><b>Systems</b> - which contain the logic and operate on entities based on their components</li>
       </ol>
 
@@ -128,8 +128,7 @@
 
       <p>Now, my implementation is still not <em>pure-ECS</em> - I'm adapting to my use case, but I can definitely see
         the <span class="text-green-500">advantages</span> of using it. Also, I'm sure my explanation barely scratches
-        the surface, but I wanted to share the "lightbulb moment" with you. I highly recommend diving deeper into it on
-        your own!</p>
+        the surface.. I highly recommend diving deeper into it on your own, I just wanted to share it 🫡</p>
 
 
       <h2>😭 Art part: Pixel Font Madness</h2>
