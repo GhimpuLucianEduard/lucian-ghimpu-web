@@ -77,8 +77,9 @@
         <AdvancedImage
           :cld-img="cloudinary.createImageInstance('lucianghimpu.com/blog/slaythespire2tracker/reg.png')"
           :plugins="cloudinary.plugins" />
-        <figcaption>Credit: https://www.reddit.com/r/slaythespire/comments/1rox4w3/big_sword_hit_big_numbers/</figcaption>
       </figure>
+
+      <em><a href="https://www.reddit.com/r/slaythespire/comments/1rox4w3/big_sword_hit_big_numbers">Credits</a></em>
 
     </article>
   </div>
