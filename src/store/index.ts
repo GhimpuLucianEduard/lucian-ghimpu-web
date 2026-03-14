@@ -48,6 +48,21 @@ const facts = [
 
 const posts = [
   {
+    title: 'Slay the Spire 2 & Time Tracker App',
+    subtitle: 'March 14, 2026 - Reading Time: 3 minutes',
+    tags: ['Side Project'],
+    intro: '',
+    link: '/posts/slay-the-spire-2-tracker',
+    image: 'https://res.cloudinary.com/dkcw58wif/image/upload/v1773499956/lucianghimpu.com/blog/slaythespire2tracker/main.png',
+    content: `
+      <p><a class="text-indigo" href="https://store.steampowered.com/app/2868840/Slay_the_Spire_2/">Slay the Spire 2</a>
+        released ~1 week ago and ofc I got addicted to it 🫠</p>
+
+      <p>I've played a grand total of ~16h or ~2h per day since its release. Which might not seem a lot, but it adds up
+        when you got 10000 other things going on.</p>
+  `,
+  },
+  {
     title: 'Sunday Farm #2 - Systems and going crazy with fonts',
     subtitle: 'January 04, 2026 - Reading Time: 5 minutes',
     tags: ['Game Dev'],

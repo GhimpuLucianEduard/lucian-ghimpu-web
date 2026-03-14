@@ -34,6 +34,7 @@ import Goals2025 from "@/views/blog/Goals2025.vue";
 import SomethingNew from "@/views/game-dev/SomethingNew.vue";
 import SundayFarm1 from "@/views/game-dev/SundayFarm1.vue";
 import SundayFarm2 from "@/views/game-dev/SundayFarm2.vue";
+import SlayTheSpire2Tracker from '@/views/blog/SlayTheSpire2Tracker.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -210,6 +211,11 @@ const router = createRouter({
       path: "/game-dev/sunday-farm-2",
       name: "sunday-farm-2",
       component: SundayFarm2
+    },
+    {
+      path: '/posts/slay-the-spire-2-tracker',
+      name: 'slay-the-spire-2-tracker',
+      component: SlayTheSpire2Tracker,
     },
     { path: "/:pathMatch(.*)*", component: NotFound }
   ]
